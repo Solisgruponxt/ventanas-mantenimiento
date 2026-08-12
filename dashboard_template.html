@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ventanas de Mantenimiento — Línea de Tiempo</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --card-bg: #ffffff;
+    --chip-bg: #eeece6;
+    --seq-400: #3987e5;
+    --seq-450: #2a78d6;
+    --seq-550: #1c5cab;
+    --good: #0ca30c;
+    --good-bg: #e6f6e6;
+    --warning: #b8790a;
+    --warning-bg: #fdf1d9;
+    --serious: #ec835a;
+    --serious-bg: #fdeae2;
+    --critical: #d03b3b;
+    --critical-bg: #fbe4e4;
+    --muted-badge: #898781;
+    --muted-badge-bg: #eeece6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted: #898781;
+      --grid: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255,255,255,0.10);
+      --card-bg: #232322;
+      --chip-bg: #2c2c2a;
+      --seq-400: #3987e5;
+      --seq-450: #2a78d6;
+      --seq-550: #6da7ec;
+      --good: #0ca30c;
+      --good-bg: #12331a;
+      --warning: #fab219;
+      --warning-bg: #3a2c0c;
+      --serious: #ec835a;
+      --serious-bg: #3a1f12;
+      --critical: #e66767;
+      --critical-bg: #3a1414;
+      --muted-badge: #c3c2b7;
+      --muted-badge-bg: #2c2c2a;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --page: #0d0d0d;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255,255,255,0.10);
+    --card-bg: #232322;
+    --chip-bg: #2c2c2a;
+    --seq-400: #3987e5;
+    --seq-450: #2a78d6;
+    --seq-550: #6da7ec;
+    --good: #0ca30c;
+    --good-bg: #12331a;
+    --warning: #fab219;
+    --warning-bg: #3a2c0c;
+    --serious: #ec835a;
+    --serious-bg: #3a1f12;
+    --critical: #e66767;
+    --critical-bg: #3a1414;
+    --muted-badge: #c3c2b7;
+    --muted-badge-bg: #2c2c2a;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page);
+    color: var(--text-primary);
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 80px; }
+
+  header.top { margin-bottom: 20px; }
+  header.top h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  header.top p { margin: 0; color: var(--text-secondary); font-size: 0.9rem; }
+
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .kpi-tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .kpi-tile .label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 6px; }
+  .kpi-tile .value { font-size: 1.5rem; font-weight: 600; line-height: 1.15; }
+  .kpi-tile .sub { font-size: 0.78rem; color: var(--text-secondary); margin-top: 2px; }
+
+  .chart-card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  .chart-card h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); margin: 0 0 12px; font-weight: 600; }
+  .bars { display: flex; align-items: flex-end; gap: 10px; height: 110px; }
+  .bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; }
+  .bar-col .bar { width: 100%; max-width: 40px; background: var(--seq-450); border-radius: 4px 4px 0 0; position: relative; }
+  .bar-col .bar-val { font-size: 0.72rem; color: var(--text-secondary); margin-bottom: 4px; }
+  .bar-col .bar-label { font-size: 0.72rem; color: var(--text-muted); margin-top: 6px; }
+  .bar-col .bar-label-active { color: var(--text-primary); font-weight: 700; }
+  .bar-col .bar-active { background: var(--seq-550); }
+  .bar-col .bar-dimmed { background: var(--baseline); }
+  .bar-col:hover .bar { filter: brightness(1.1); }
+  .chart-card h2 .hint { text-transform: none; font-weight: 400; letter-spacing: 0; margin-left: 6px; }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 18px;
+    padding: 12px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .filters input[type="search"] {
+    flex: 1;
+    min-width: 160px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text-primary);
+    font-size: 0.85rem;
+  }
+  .dropdown { position: relative; }
+  .dropdown > button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text-primary);
+    font-size: 0.82rem;
+    cursor: pointer;
+  }
+  .dropdown > button:hover { background: var(--chip-bg); }
+  .dropdown-panel {
+    display: none;
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    z-index: 20;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px;
+    min-width: 200px;
+    max-height: 260px;
+    overflow-y: auto;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  .dropdown.open .dropdown-panel { display: block; }
+  .dropdown-panel label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.82rem;
+    padding: 4px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .dropdown-panel label:hover { background: var(--chip-bg); }
+  .clear-btn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    cursor: pointer;
+  }
+  .clear-btn:hover { color: var(--text-primary); }
+
+  .year-group { margin-bottom: 8px; }
+  .year-header {
+    position: sticky;
+    top: 0;
+    background: var(--page);
+    padding: 10px 0 6px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--grid);
+    margin-bottom: 10px;
+    z-index: 5;
+  }
+  .year-header .count { font-size: 0.8rem; color: var(--text-muted); font-weight: 400; margin-left: 6px; }
+
+  .event-card {
+    display: flex;
+    gap: 14px;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+  }
+  .event-date {
+    flex: 0 0 74px;
+    text-align: center;
+    padding-top: 2px;
+  }
+  .event-date .day { font-size: 1.3rem; font-weight: 700; line-height: 1; }
+  .event-date .month { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; margin-top: 2px; }
+  .event-body { flex: 1; min-width: 0; }
+  .event-title { font-size: 0.92rem; font-weight: 600; margin: 0 0 4px; }
+  .event-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 6px; }
+  .tag {
+    font-size: 0.72rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--chip-bg);
+    color: var(--text-secondary);
+  }
+  .badge {
+    font-size: 0.72rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .badge.confirmada { background: var(--good-bg); color: var(--good); }
+  .badge.tentativa { background: var(--warning-bg); color: var(--warning); }
+  .badge.pendiente { background: var(--muted-badge-bg); color: var(--muted-badge); }
+  .badge.cancelada { background: var(--critical-bg); color: var(--critical); }
+  .badge.desconocido { background: var(--muted-badge-bg); color: var(--muted-badge); }
+  .event-time { font-size: 0.78rem; color: var(--text-secondary); }
+  .event-notes {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 4px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
+  .event-card.expanded .event-notes { max-height: 400px; }
+  .event-toggle {
+    background: none;
+    border: none;
+    color: var(--seq-450);
+    font-size: 0.76rem;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 2px;
+  }
+
+  .empty-state {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 40px 0;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 640px) {
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Ventanas de Mantenimiento</h1>
+    <p>Línea de tiempo de ventanas de mantenimiento a servidores, extraídas de jsolis@nxtview.com</p>
+  </header>
+
+  <div class="kpi-row" id="kpiRow"></div>
+
+  <div class="chart-card">
+    <h2>Ventanas por año<span class="hint">— clic en una barra para filtrar ese año</span></h2>
+    <div class="bars" id="barsChart"></div>
+  </div>
+
+  <div class="filters">
+    <input type="search" id="searchBox" placeholder="Buscar por sistema, título o nota…">
+    <div class="dropdown" id="ddSistema">
+      <button type="button">Permisionario ▾</button>
+      <div class="dropdown-panel" id="panelSistema"></div>
+    </div>
+    <div class="dropdown" id="ddEstado">
+      <button type="button">Estado ▾</button>
+      <div class="dropdown-panel" id="panelEstado"></div>
+    </div>
+    <div class="dropdown" id="ddAnio">
+      <button type="button">Año ▾</button>
+      <div class="dropdown-panel" id="panelAnio"></div>
+    </div>
+    <button class="clear-btn" id="clearFilters">Limpiar filtros</button>
+  </div>
+
+  <div id="timeline"></div>
+  <div class="empty-state" id="emptyState" style="display:none;">No hay ventanas que coincidan con los filtros.</div>
+</div>
+
+<script>
+const DATA = __VENTANAS_DATA__;
+
+const MESES = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
+const MESES_LARGO = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+const state = {
+  search: '',
+  sistemas: new Set(),
+  estados: new Set(),
+  anios: new Set(),
+};
+
+function parseFecha(f) {
+  const [y,m,d] = f.split('-').map(Number);
+  return new Date(y, m-1, d);
+}
+
+function fmtHora(ev) {
+  if (!ev.hi) return '';
+  let s = 'Hora: ' + ev.hi;
+  if (ev.hf) s += ' – ' + ev.hf;
+  return s;
+}
+
+function estadoLabel(e) {
+  return {confirmada:'Confirmada', tentativa:'Tentativa', pendiente:'Sin confirmar', cancelada:'Cancelada', desconocido:'Sin dato'}[e] || e;
+}
+
+function buildKPIs(filtered) {
+  const total = DATA.length;
+  const shown = filtered.length;
+  const sistemasDistintos = new Set(DATA.map(e => e.sis)).size;
+  const confirmadas = DATA.filter(e => e.est === 'confirmada').length;
+  const pctConfirmadas = total ? Math.round(confirmadas/total*100) : 0;
+
+  const todayStr = new Date().toISOString().slice(0,10);
+  const futuras = DATA.filter(e => e.f >= todayStr).sort((a,b) => a.f.localeCompare(b.f));
+  const proxima = futuras[0];
+
+  const kpiRow = document.getElementById('kpiRow');
+  kpiRow.innerHTML = '';
+
+  const tiles = [
+    {label: 'Total ventanas registradas', value: total, sub: shown !== total ? (shown + ' visibles con filtro actual') : 'histórico completo'},
+    {label: 'Próxima ventana', value: proxima ? parseFecha(proxima.f).toLocaleDateString('es-MX', {day:'numeric', month:'short'}) : '—', sub: proxima ? (proxima.sis + (proxima.hi ? ' · ' + proxima.hi : '')) : 'sin ventanas futuras registradas'},
+    {label: 'Sistemas distintos', value: sistemasDistintos, sub: 'servidores / proyectos'},
+    {label: 'Confirmadas', value: pctConfirmadas + '%', sub: confirmadas + ' de ' + total + ' ventanas'},
+  ];
+  tiles.forEach(t => {
+    const div = document.createElement('div');
+    div.className = 'kpi-tile';
+    div.innerHTML = '<div class="label">'+t.label+'</div><div class="value">'+t.value+'</div><div class="sub">'+t.sub+'</div>';
+    kpiRow.appendChild(div);
+  });
+}
+
+function buildBarsChart() {
+  const byYear = {};
+  DATA.forEach(e => {
+    const y = e.f.slice(0,4);
+    byYear[y] = (byYear[y]||0) + 1;
+  });
+  const years = Object.keys(byYear).sort();
+  const max = Math.max(...years.map(y => byYear[y]));
+  const container = document.getElementById('barsChart');
+  container.innerHTML = '';
+  years.forEach(y => {
+    const val = byYear[y];
+    const pct = Math.max(6, Math.round(val/max*100));
+    const isActive = state.anios.has(y);
+    const dimmed = state.anios.size > 0 && !isActive;
+    const col = document.createElement('div');
+    col.className = 'bar-col';
+    col.style.cursor = 'pointer';
+    col.title = isActive ? 'Quitar filtro de ' + y : 'Filtrar por ' + y;
+    col.innerHTML = '<div class="bar-val">'+val+'</div><div class="bar'+(isActive?' bar-active':'')+(dimmed?' bar-dimmed':'')+'" style="height:'+pct+'%"></div><div class="bar-label'+(isActive?' bar-label-active':'')+'">'+y+'</div>';
+    col.addEventListener('click', () => {
+      if (state.anios.has(y)) state.anios.delete(y); else state.anios.add(y);
+      syncFilterPanel('panelAnio', state.anios);
+      render();
+    });
+    container.appendChild(col);
+  });
+}
+
+function syncFilterPanel(panelId, stateSet) {
+  const panel = document.getElementById(panelId);
+  if (!panel) return;
+  panel.querySelectorAll('input[type=checkbox]').forEach(cb => {
+    cb.checked = stateSet.has(cb.value);
+  });
+}
+
+function buildFilterPanel(panelId, values, stateSet, label) {
+  const panel = document.getElementById(panelId);
+  panel.innerHTML = '';
+  values.forEach(v => {
+    const lab = document.createElement('label');
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.value = v;
+    cb.checked = stateSet.has(v);
+    cb.addEventListener('change', () => {
+      if (cb.checked) stateSet.add(v); else stateSet.delete(v);
+      render();
+    });
+    lab.appendChild(cb);
+    lab.appendChild(document.createTextNode(label ? label(v) : v));
+    panel.appendChild(lab);
+  });
+}
+
+function setupDropdowns() {
+  document.querySelectorAll('.dropdown > button').forEach(btn => {
+    btn.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      const dd = btn.parentElement;
+      const wasOpen = dd.classList.contains('open');
+      document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open'));
+      if (!wasOpen) dd.classList.add('open');
+    });
+  });
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open'));
+  });
+}
+
+function matchesFilters(ev) {
+  if (state.sistemas.size && !state.sistemas.has(ev.sis)) return false;
+  if (state.estados.size && !state.estados.has(ev.est)) return false;
+  if (state.anios.size && !state.anios.has(ev.f.slice(0,4))) return false;
+  if (state.search) {
+    const q = state.search.toLowerCase();
+    const hay = (ev.sis + ' ' + ev.det + ' ' + ev.tit + ' ' + (ev.not||'')).toLowerCase();
+    if (!hay.includes(q)) return false;
+  }
+  return true;
+}
+
+function renderTimeline(filtered) {
+  const timeline = document.getElementById('timeline');
+  const emptyState = document.getElementById('emptyState');
+  timeline.innerHTML = '';
+
+  if (!filtered.length) {
+    emptyState.style.display = 'block';
+    return;
+  }
+  emptyState.style.display = 'none';
+
+  const sorted = [...filtered].sort((a,b) => b.f.localeCompare(a.f));
+  const byYear = {};
+  sorted.forEach(e => {
+    const y = e.f.slice(0,4);
+    (byYear[y] = byYear[y]||[]).push(e);
+  });
+
+  Object.keys(byYear).sort((a,b) => b.localeCompare(a)).forEach(year => {
+    const yearDiv = document.createElement('div');
+    yearDiv.className = 'year-group';
+    yearDiv.innerHTML = '<div class="year-header">'+year+'<span class="count">'+byYear[year].length+' ventana(s)</span></div>';
+    byYear[year].forEach(ev => {
+      const d = parseFecha(ev.f);
+      const card = document.createElement('div');
+      card.className = 'event-card';
+      const horaStr = fmtHora(ev);
+      const notas = ev.not || '';
+      card.innerHTML =
+        '<div class="event-date"><div class="day">'+d.getDate()+'</div><div class="month">'+MESES[d.getMonth()]+'</div></div>'+
+        '<div class="event-body">'+
+          '<p class="event-title">'+escapeHtml(ev.tit)+'</p>'+
+          '<div class="event-meta">'+
+            '<span class="tag">'+escapeHtml(ev.sis)+'</span>'+
+            '<span class="badge '+ev.est+'">'+estadoLabel(ev.est)+'</span>'+
+            (horaStr ? '<span class="event-time">'+escapeHtml(horaStr)+'</span>' : '')+
+          '</div>'+
+          (notas ? '<button class="event-toggle">Ver detalle ▾</button><div class="event-notes">'+escapeHtml(notas)+'</div>' : '')+
+        '</div>';
+      const toggle = card.querySelector('.event-toggle');
+      if (toggle) {
+        toggle.addEventListener('click', () => {
+          card.classList.toggle('expanded');
+          toggle.textContent = card.classList.contains('expanded') ? 'Ocultar detalle ▴' : 'Ver detalle ▾';
+        });
+      }
+      yearDiv.appendChild(card);
+    });
+    timeline.appendChild(yearDiv);
+  });
+}
+
+function escapeHtml(s) {
+  const div = document.createElement('div');
+  div.textContent = s;
+  return div.innerHTML;
+}
+
+function render() {
+  const filtered = DATA.filter(matchesFilters);
+  buildKPIs(filtered);
+  buildBarsChart();
+  renderTimeline(filtered);
+}
+
+function init() {
+  const sistemas = [...new Set(DATA.map(e => e.sis))].sort();
+  const estados = ['confirmada','tentativa','pendiente','cancelada','desconocido'];
+  const anios = [...new Set(DATA.map(e => e.f.slice(0,4)))].sort((a,b) => b.localeCompare(a));
+
+  buildFilterPanel('panelSistema', sistemas, state.sistemas);
+  buildFilterPanel('panelEstado', estados, state.estados, estadoLabel);
+  buildFilterPanel('panelAnio', anios, state.anios);
+
+  setupDropdowns();
+
+  document.getElementById('searchBox').addEventListener('input', (e) => {
+    state.search = e.target.value.trim();
+    render();
+  });
+  document.getElementById('clearFilters').addEventListener('click', () => {
+    state.search = '';
+    state.sistemas.clear();
+    state.estados.clear();
+    state.anios.clear();
+    document.getElementById('searchBox').value = '';
+    document.querySelectorAll('.dropdown-panel input[type=checkbox]').forEach(cb => cb.checked = false);
+    render();
+  });
+
+  render();
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,2493 @@
+[
+  {
+    "titulo": "ventana de tiempo 18 de octubre 2021 (TRE)",
+    "fecha": "2021-10-18",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "TRE (Pantaleon)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "17d29eb7f36546b9",
+      "17d29a4397527e12"
+    ],
+    "notas": "Fecha tomada del asunto del correo. [Consolidado de 2 correos relacionados: ventana de tiempo 18 de octubre 2021 (TRE); ventana de tiempo 18 de octubre 2021 (TRE)]",
+    "sistema_tag": "TRE"
+  },
+  {
+    "titulo": "Reporte de revision de Servidor Enero 2022 (TRE)",
+    "fecha": "2022-01-20",
+    "hora_inicio": "12:30",
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "TRE",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "ngomez@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "17e7d07849702699",
+      "17e78e4ce385ee80"
+    ],
+    "notas": "Reporte (21-ene-2022) de 'la Revisión mensual del servidor de TRE'; corresponde a la ventana confirmada en el hilo relacionado 17e78e4ce385ee80 para el 20 de enero 2022 a las 12:30 horas. [Consolidado de 2 correos relacionados: Reporte de revision de Servidor Enero 2022 (TRE); Solicitud de ventana de tiempo (revision mensual del servido]",
+    "sistema_tag": "TRE"
+  },
+  {
+    "titulo": "Ventana de tiempo Server A3T 12 Febrero 22:00 hrs",
+    "fecha": "2022-02-12",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "194fdcea6904e3c5"
+    ],
+    "notas": "Fecha tomada del asunto del correo. Nota: el correo es de 2025-02-13 pero el asunto menciona '12 Febrero'; posible error tipográfico de año en el asunto original (se preservó el valor extraído literalmente, verificar manualmente).",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Solicitud de ventana de tiempo Servidor TRE",
+    "fecha": "2022-02-17",
+    "hora_inicio": "08:00",
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "TRE",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "ngomez@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "17f0e1d057de7d39",
+      "17f089c7ae73c7c9",
+      "17f0492482af16cb"
+    ],
+    "notas": "El hilo incluye el mensaje original de solicitud: 'la ventana la requerimos para el día de mañana 17 de Febrero del 2022 a las 8:00 am' y posteriormente se envía el reporte de la revisión (18-feb), confirmando que se ejecutó. [Consolidado de 3 correos relacionados: Solicitud de ventana de tiempo Servidor TRE; Solicitud de ventana de tiempo (revision mensual del servido; Solicitud de ventana de tiempo Servidor TRE]",
+    "sistema_tag": "TRE"
+  },
+  {
+    "titulo": "ventana matto abent 3t",
+    "fecha": "2024-07-30",
+    "hora_inicio": "10:22",
+    "hora_fin": "2024-07-31 12:00",
+    "timezone": "UTC-06:00 (CDMX/Guadalajara/Monterrey)",
+    "sistema_o_proyecto": "ABENT 3T / CFE",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "191063dccc4a0644"
+    ],
+    "notas": "Cita original de CFE: 'Cuándo: martes, 30 de julio de 2024 10:22 a.m. a miércoles, 31 de julio de 2024 12:00 p.m. (UTC-06:00)'. Es una ventana inusualmente larga (abarca dos días); hora_fin incluye la fecha del segundo día por claridad.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ultimo status de los aplicativos en PrimeRead y PME.",
+    "fecha": "2024-08-12",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "diego.torres@abent3t.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "190fafd0d3f795d2"
+    ],
+    "notas": "Fecha tomada del fragmento visible del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Soporte A3T",
+    "fecha": "2024-08-29",
+    "hora_inicio": "4pm",
+    "hora_fin": "8pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1919fa0a28e7d559"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento DEM y DED",
+    "fecha": "2024-09-11",
+    "hora_inicio": "10:00",
+    "hora_fin": "15:00",
+    "timezone": "UTC-06:00 (CDMX/Guadalajara/Monterrey)",
+    "sistema_o_proyecto": "DEM y DED",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "emmanuel.cuenca@demexoaxaca1.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "191b956434a55638"
+    ],
+    "notas": "Cita original de CFE: 'Cuándo: miércoles, 11 de septiembre de 2024 10:00 a.m.-03:00 p.m. (UTC-06:00)', incluye lista de actividades (revisión aplicativo, BD, logs, etc.).",
+    "sistema_tag": "DEM / DED"
+  },
+  {
+    "titulo": "Ventana de mantenimiento el Retiro (Grupo Mexico Sureste)",
+    "fecha": "2024-09-20",
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "timezone": "UTC-06:00 (CDMX/Guadalajara/Monterrey)",
+    "sistema_o_proyecto": "El Retiro / Grupo Mexico Sureste",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1920bd8232d06c1a"
+    ],
+    "notas": "Cita original incluida en el reenvío: 'When: Friday, September 20, 2024 11:00 AM-2:00 PM (UTC-06:00)'. El correo de contexto (19-sep) también dice 'Es mañana a las 11:00'.",
+    "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "Ventana cfe 7 oct 24",
+    "fecha": "2024-10-07",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "A3T / CFE (Bachoco, Alsea)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "arodriguez@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "192693be8861c221"
+    ],
+    "notas": "Cuerpo: 'listado de sitios para cambiar la ip y puerto en la ventana de tiempo que tendrán el dia de hoy con CFE' (enviado 7-oct-2024). No se especifica hora.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Minuta Ventana de Tiempo Grupo Mexico 15 Nov 24",
+    "fecha": "2024-11-15",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "Grupo Mexico",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19344d1c4d948abc"
+    ],
+    "notas": "Minuta de una ventana ya realizada, 'Duración de la Ventana: 2 Hrs', pero sin hora de reloj especificada en el cuerpo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de Tiempo 27 Noviembre 2024",
+    "fecha": "2024-11-27",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Tiempo 27 Noviembre 2024",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1936c8bdbfeae2f6"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de Tiempo 2 Dic 2024 Proyecto A3T",
+    "fecha": "2024-12-02",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "A3T (Bachoco, Alsea)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1938ad2357a95a08"
+    ],
+    "notas": "Correo 'Se solicita una ventana de tiempo para realizar las siguientes actividades' enviado de madrugada (3 dic 05:58 UTC), consistente con ventana del 2 dic 2024 (nombre del asunto). No se especifica hora exacta.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Resultados de ventana de tiempo Sureste (ERT Grupo Mexico)",
+    "fecha": "2024-12-05",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "El Retiro / Grupo Mexico Sureste",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1939e333c1034f82"
+    ],
+    "notas": "Correo enviado 2024-12-06 dice 'la ventana tomada el día de ayer por la noche', es decir la noche del 5 dic 2024. No se especifica hora exacta.",
+    "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "Ventana de Tiempo 6 Dic 2024",
+    "fecha": "2024-12-05",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "A3T (Bachoco, Alsea, Iberostar, etc.)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1939ab9d5eef844f"
+    ],
+    "notas": "Cuerpo: 'Se realiza ventana de tiempo el 5 Dic 2024...' (reporte enviado la madrugada del 6 dic). Sin hora exacta en el texto pese al asunto decir '6 Dic'.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Tiempo A3T 11 Diciembre 2024",
+    "fecha": "2024-12-11",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "193b9726a1625de0"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Tiempo 18 Dic 2024 Proyecto: A3T",
+    "fecha": "2024-12-18",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "A3T (Bachoco, Alsea, etc.)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "193db9c8a53e5b02"
+    ],
+    "notas": "Correo de jsolis reportando resultados: 'Se realiza Ventana de Tiempo' el mismo 18 dic 2024 (enviado ese día 21:41 UTC). No se menciona hora de inicio/fin en el cuerpo, solo resultados de la ventana ya ejecutada.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana e mantenimiento ABEN3T (18 dic 9-14hrs)",
+    "fecha": "2024-12-18",
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00",
+    "timezone": null,
+    "sistema_o_proyecto": "ABEN3T / CFE",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "fmorales@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "193b1a67ed674202"
+    ],
+    "notas": "Cuerpo explícito: 'Esta ventana es para el dia 18 de Diciembre de 9 a 14 hrs'. Reenvío incluye invitación original de CFE (francisco.baez@cfe.mx) para el mismo asunto.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Tiempo A3T",
+    "fecha": "2024-12-23",
+    "hora_inicio": "10pm",
+    "hora_fin": "11pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "193f689a1ff608db"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana Tiempo A3T 14 Enero 2025",
+    "fecha": "2025-01-14",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19468583bfaaa391"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Demex  15 Enero 2025",
+    "fecha": "2025-01-15",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "DEMEX / DEM / DED (Bimbo)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "fsilva@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19bc546aad2077dc"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Ventana de manteniendo BII (Naturgy viernes 9-2)",
+    "fecha": "2025-01-17",
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00",
+    "timezone": "UTC-06:00 (CDMX/Guadalajara/Monterrey)",
+    "sistema_o_proyecto": "BII / Naturgy / Global Power Generation",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "194664ce2dcb51e8"
+    ],
+    "notas": "Cuerpo del reenvío incluye la cita original aceptada: 'Cuándo: viernes, 17 de enero de 2025 09:00 a.m.-02:00 p.m. (UTC-06:00)'.",
+    "sistema_tag": "Naturgy"
+  },
+  {
+    "titulo": "Informe de actividades en la ventana de trabajo del 18 de febrero de 2025 (BII HIOXO/PrimeRead)",
+    "fecha": "2025-02-18",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "BII HIOXO (Naturgy)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195621d57e760892"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "Ventana de Tiempo 25 Febrero 2025",
+    "fecha": "2025-02-25",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Tiempo 25 Febrero 2025",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1953f8b9ece02ed1"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de Tiempo 11 y 12 Marzo 2025 Proyecto A3T",
+    "fecha": "2025-03-12",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1958d9e67933b555"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Solicitud de ventanas de mantenimiento servidor A3T",
+    "fecha": "2025-03-18",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "A3T",
+    "estado": "tentativa",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "alvaro.jacinto@cfe.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19566c8c4855440a"
+    ],
+    "notas": "Solicitud de ventanas mensuales con fechas propuestas 'Martes 18 de Marzo' y 'Lunes 24 de Marzo' de 2025. CFE (Álvaro Jacinto) respondió que 'se validará si se cuenta con disponibilidad... en la fecha y hora que se cuente con disponibilidad', es decir, no confirmó fecha/hora fija. Se registra la primera fecha propuesta como referencia.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Tiempo 19 Marzo",
+    "fecha": "2025-03-19",
+    "hora_inicio": "5:30pm",
+    "hora_fin": "10:30pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Tiempo 19 Marzo",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195b092de4678cf4",
+      "19d72ec02190bc09"
+    ],
+    "notas": "Agrupado de 2 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Reporte de trabajos realizados en Ventana 20-03-2025 A3T",
+    "fecha": "2025-03-20",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195ba4fafae87b64"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Reporte de Ventana 20 Marzo 2025",
+    "fecha": "2025-03-20",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Reporte de Ventana 20 Marzo 2025",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195b9cb28775c0f9"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de Tiempo A3T",
+    "fecha": "2025-03-25",
+    "hora_inicio": "7pm",
+    "hora_fin": "10pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "tentativa",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195cfd6a0f80f583",
+      "195cfd6b57f98208"
+    ],
+    "notas": "Agrupado de 2 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Tiempo 25 de Marzo 2025",
+    "fecha": "2025-03-25",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Tiempo 25 de Marzo 2025",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195d0d82e076ecf8"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Actualizar IPs ventana 25/03/2025",
+    "fecha": "2025-03-25",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Actualizar IPs ventana 25/03/2025",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195cefa3a5c27c0f"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana Mantenimiento EDG1 actualizacion parametros servidor",
+    "fecha": "2025-03-27",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "ERT / El Retiro (Grupo Mexico)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "d.mendiola@viveenergia.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195dd4937aa62c16"
+    ],
+    "notas": "Fecha tomada del fragmento visible del correo.",
+    "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "Revision Nateo Server A3T (Ventana de Tiempo)",
+    "fecha": "2025-04-01",
+    "hora_inicio": "9pm",
+    "hora_fin": "11pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195f2abebc8929b4",
+      "195f2ad13880759f",
+      "195f2b502858c7e7",
+      "195f2cf6142d4ef0",
+      "195f2f63aefba741",
+      "195f32e2eedc6dd6",
+      "195f46b3fd64fdbb"
+    ],
+    "notas": "Agrupado de 7 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Tiempo A3T (Revision de NAT)",
+    "fecha": "2025-04-02",
+    "hora_inicio": "5:30pm",
+    "hora_fin": "8pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "195f7ac5375d7291",
+      "195f7c2a29eb26ec",
+      "195f7d2fe3633e25"
+    ],
+    "notas": "Agrupado de 3 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Fuera de la oficina Re: Ventana de Tiempo Server A3T 4 Abril 2025",
+    "fecha": "2025-04-04",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "196116a4982e3cc9",
+      "19607bbe4c94dce2"
+    ],
+    "notas": "Fecha tomada del asunto del correo. [Consolidado de 2 correos relacionados: Fuera de la oficina Re: Ventana de Tiempo Server A3T 4 Abril; Ventana de Tiempo Server A3T 4 Abril 2025]",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana ABT (emergencia, se definira hora, estar pendientes)",
+    "fecha": "2025-04-04",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "ABT",
+    "estado": "tentativa",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "fmorales@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "196015b2d5f6e2bc"
+    ],
+    "notas": "Invitación de Teams de emergencia enviada 2025-04-04; el propio asunto original indica 'se definirá hora, estar pendientes', y el cuerpo no aporta hora concreta.",
+    "sistema_tag": "ABT"
+  },
+  {
+    "titulo": "VENTANA EXPRESS ABT (24 abril / hoy 1pm Naturgy)",
+    "fecha": "2025-04-22",
+    "hora_inicio": "1:00 pm",
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "ABT / A3T / Naturgy",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "fmorales@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1965e8afc0a66b7e"
+    ],
+    "notas": "Correo indica que la ventana programada para el 24 de abril no fue posible para A3T, pero 'la ventana de hoy [2025-04-22] a la 1pm para Naturgy se ampliará más tiempo para realizar trabajos de A3T'. Incluye invitación original 'VENTANA EXPRESS ABT' del 21 de abril sin hora explícita adicional.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Reporte de Ventana de Tiempo 24 Abril 2025",
+    "fecha": "2025-04-24",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Reporte de Ventana de Tiempo 24 Abril 2025",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1966b567d3532f2a"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Apoyo Ventana para A3T",
+    "fecha": "2025-04-24",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "A3T",
+    "estado": "pendiente",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "fmorales@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19659b2cbbd0c448"
+    ],
+    "notas": "Solicitud de acceso al servidor A3T con fecha propuesta 'jueves 24 de abril' (2025-04-24), sin hora especificada. Según el hilo relacionado 1965e8afc0a66b7e, esta ventana finalmente 'no fue posible' para A3T en esa fecha.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "ventana de mtto Pe Ingenio",
+    "fecha": "2025-05-13",
+    "hora_inicio": "15:00",
+    "hora_fin": "17:00",
+    "timezone": "CDMX/UTC",
+    "sistema_o_proyecto": "PE Ingenio",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "196c57774d079f0c"
+    ],
+    "notas": "Invitación original de DAVID SANCHEZ GOMEZ (CFE): 'Cuándo: martes, 13 de mayo de 2025 15:00-17:00'.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Solicitud de Ventana de acceso al servidor A3T Mayo 2025",
+    "fecha": "2025-05-15",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "A3T",
+    "estado": "pendiente",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1965f83f13b0e487"
+    ],
+    "notas": "Solicitud (no confirmación) de acceso mensual al servidor A3T para mayo 2025, con dos fechas propuestas: jueves 15 de mayo 2025 y jueves 22 de mayo 2025. Se registra la primera como referencia; no se especifica hora.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento el Retiro",
+    "fecha": "2025-05-19",
+    "hora_inicio": "9:00 AM",
+    "hora_fin": "11:00 AM",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "El Retiro",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "196d4fddf6c74358"
+    ],
+    "notas": "Invitación original de ALVARO JACINTO ORTEGON (CFE): 'When: Monday, May 19, 2025 9:00 AM-11:00 AM (UTC-06:00)'.",
+    "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "Revision Comunicaciones",
+    "fecha": "2025-05-19",
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "timezone": null,
+    "sistema_o_proyecto": "ERSA",
+    "estado": "tentativa",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "emontanob@gminfra.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1938ec3a6e61dae1"
+    ],
+    "notas": "Hilo largo iniciado como revisión de comunicaciones (dic 2024) que en mayo 2025 deriva en una solicitud real: emontanob@gminfra.mx pide 'pruebas de comunicación... Lunes 19 de Mayo en un horario de 10 AM a 12 PM'; hjaramillo responde 'adelante con la fecha y hora... solo resta que nos apoyen mandando la solicitud de CFE', por lo que queda tentativa/pendiente de confirmación formal con CFE.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Fuerza Eolica de San Matias - Ventana con CFE para vigencia de licencia (6 junio)",
+    "fecha": "2025-06-06",
+    "hora_inicio": "11:15 am",
+    "hora_fin": null,
+    "timezone": "CDMX",
+    "sistema_o_proyecto": "Fuerza Eólica de San Matías (vigencia de licencia 5200119, CFE Baja California)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "dhernandez@exusrenewables.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1974153fcffbe7b9"
+    ],
+    "notas": "Correo confirma: 'CFE Baja California nos otorgará una ventana de trabajo el día de mañana 6 de junio a las 11:15 am hora CDMX'. Enviado 2025-06-05.",
+    "sistema_tag": "San Matías"
+  },
+  {
+    "titulo": "Ventana de Tiempo 10 Junio 2025",
+    "fecha": "2025-06-10",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Tiempo 10 Junio 2025",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19769c7da639b205"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de Tiempo Proyecto A3T 18 Junio 2025",
+    "fecha": "2025-06-18",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19789bea5e31c869"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento PE Ingenio",
+    "fecha": "2025-06-20",
+    "hora_inicio": "9:00 a.m.",
+    "hora_fin": "11:00 a.m.",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "PE Ingenio (PRIME y PME)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1976532d4b95ba7b"
+    ],
+    "notas": "Invitación original (dos veces reenviada, ambas coinciden): 'Cuándo: viernes, 20 de junio de 2025 9:00-11:00'. Incluye pruebas de comunicación con Walmart.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento Grupo México",
+    "fecha": "2025-07-07",
+    "hora_inicio": "6pm",
+    "hora_fin": "10pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Grupo Mexico / ERT",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "197e57950e7bd06b"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "Cancelada: ventana abent 3t",
+    "fecha": "2025-07-15",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "ABENT 3T",
+    "estado": "cancelada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "carlos.cisneros@cfe.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1980fbe417a551d9",
+      "1980ef1ac399fdee",
+      "1980ec18d4f31ced"
+    ],
+    "notas": "Notificación de cancelación de la reunión de Teams enviada por carlos.cisneros@cfe.mx el 2025-07-15; el cuerpo solo trae datos de acceso Teams, sin fecha/hora explícita, pero corresponde a la ventana solicitada el mismo día en el hilo relacionado 1980ec18d4f31ced ('se ejecuta el día de hoy'). [Consolidado de 3 correos relacionados: Cancelada: ventana abent 3t; ventana abent 3t; Ventana de mantenimiento programada]",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento 24 Julio 2025",
+    "fecha": "2025-07-24",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Mantenimiento 24 Julio 2025",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1983efe4cba355d4"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de matto 25 julio 2025",
+    "fecha": "2025-07-25",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de matto 25 julio 2025",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "diego.torres@abent3t.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1983d6d1bc1a8d13"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2025-07-25",
+    "hora_inicio": "9:00 a.m.",
+    "hora_fin": "11:00 a.m.",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "EIN (PRIME y PME)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jmendez@zumaenergia.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1982fb03e2a3b910",
+      "1982e88c1a8a9040"
+    ],
+    "notas": "Invitación original: 'Cuándo: viernes, 25 de julio de 2025 09:00 a.m.-11:00 a.m.'. Actividades de disco/BD, servicios y pruebas con Walmart. [Consolidado de 2 correos relacionados: Ventana de mantenimiento EIN; Ventana de mantenimiento EIN]",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "SIGMA- Tunnel Migration VPN_SIGMA_CFE_ALFA VENTANA EXITOSA",
+    "fecha": "2025-08-13",
+    "hora_inicio": "8:00 a.m.",
+    "hora_fin": "12:00 p.m.",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "SIGMA / CFE VPN (migración de túneles CFE_ALFA_VPN, CFE_VPN, CFE_VPN2)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "rhernandezr@alestra.com.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "198a58c0cfd08c14"
+    ],
+    "notas": "Correo de cierre confirma actividad concluida satisfactoriamente. Invitación original (Alestra/Rosalba Hernández): 'When: miércoles, 13 de agosto de 2025 08:00 a.m.-12:00 p.m. (UTC-06:00)'.",
+    "sistema_tag": "SIGMA / VPN CFE"
+  },
+  {
+    "titulo": "Ventana de tiempos A3T 14 Agosto 2025",
+    "fecha": "2025-08-14",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "198ae785fcf1641a"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento ERT",
+    "fecha": "2025-08-18",
+    "hora_inicio": "9:00 AM",
+    "hora_fin": "12:00 PM",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "ERT (El Retiro)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "198a01b13ac1c69f"
+    ],
+    "notas": "Invitación original de ALVARO JACINTO ORTEGON (CFE): 'When: Monday, August 18, 2025 9:00 AM-12:00 PM (UTC-06:00)'. Objetivo: revisar cargas que no descargan correctamente.",
+    "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento A3T 21 Agosto 2025 (No Oficial)",
+    "fecha": "2025-08-21",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "198d01d5921b33a6"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento PE Ingenio",
+    "fecha": "2025-08-25",
+    "hora_inicio": "15:00",
+    "hora_fin": "18:00",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "PE Ingenio (PRIME y PME)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jmendez@zumaenergia.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "198f824aca80304e",
+      "1989a39c4d8ab74c"
+    ],
+    "notas": "Invitación original: 'Cuándo: lunes, 25 de agosto de 2025 15:00-18:00'. Coincide con la fecha reportada en el hilo 'Reporte' (198f824aca80304e). [Consolidado de 2 correos relacionados: Reporte; Ventana de mantenimiento PE Ingenio]",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Reporte Ventana de mantenimiento BII HIOXO",
+    "fecha": "2025-08-25",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "BII HIOXO (Naturgy)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "ebalderas@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "198e354754951476"
+    ],
+    "notas": "Fecha tomada del fragmento visible del correo.",
+    "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento (No Oficial)",
+    "fecha": "2025-08-28",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Mantenimiento (No Oficial)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "198ef5953164671c"
+    ],
+    "notas": "Fecha tomada del fragmento visible del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Invitación: Polioles",
+    "fecha": "2025-09-05",
+    "hora_inicio": "12pm",
+    "hora_fin": "1pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Polioles",
+    "estado": "desconocido",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "daniel.melendezc@cfe.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "199ee1a60e10d2af"
+    ],
+    "notas": "Agrupado de 5 correo(s) de invitacion/RSVP. Titulo con prefijo Re:/RE: (solo se hallaron respuestas de seguimiento).",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Reporte ventana de mantenimiento 05/09/2025",
+    "fecha": "2025-09-05",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "TRE (Pantaleon)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "ebalderas@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19959abed2d6f039"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "TRE"
+  },
+  {
+    "titulo": "Ventana de Tiempo 111 Septiembre 2025",
+    "fecha": "2025-09-11",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1993d745f22708a7"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento 12 de septiembre 2025",
+    "fecha": "2025-09-12",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "TRE (Pantaleon)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "ebalderas@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1994e1435cd8cefc"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "TRE"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2025-09-17",
+    "hora_inicio": "9:00 AM",
+    "hora_fin": "12:00 PM",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "EIN (CFE ICL, PRIME y PME)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jmendez@zumaenergia.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1993f08570a1aaef"
+    ],
+    "notas": "Cuerpo confirma: 'se llevará a cabo el 17 de septiembre de 9:00 am a 12:00 pm'; invitación original 'Cuándo: Mié 17/Sep/2025, de 9:00 AM a 12:00 PM'.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento A3T 19 Septiembre",
+    "fecha": "2025-09-19",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "A3T (Prime)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "diego.torres@abent3t.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "199727e68cd72a56",
+      "19960bc704eb2142"
+    ],
+    "notas": "Hilo de seguimiento/reporte tras la ventana ejecutada el 19 de septiembre de 2025 (fecha tomada del asunto); no se indica hora exacta en los correos, solo resultados y ajustes de IDs de dispositivos posteriores. [Consolidado de 2 correos relacionados: Ventana de Mantenimiento A3T 19 Septiembre; Ventana de Mantenimiento 19 Septiembre 2025 Proyecto A3T]",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Reporte de Ventana de mantenimiento BII HIOXO",
+    "fecha": "2025-09-22",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "BII HIOXO",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "ebalderas@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19987a4ac0ade453"
+    ],
+    "notas": "Reporte post-ventana: 'ventana de mantenimiento ejecutada el día miércoles 22 de septiembre'. Actividades: revisión de disco duro/BD y servicios. No se especifica hora.",
+    "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento A3T 19 Septiembre",
+    "fecha": "2025-09-30",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "diego.torres@abent3t.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19a791f4c39136ae"
+    ],
+    "notas": "Fecha tomada del fragmento visible del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento 9 octubre 2025 (No Oficial)",
+    "fecha": "2025-10-09",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Mantenimiento 9 octubre 2025 (No Oficial)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "199c7519341d8e5a"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2025-10-14",
+    "hora_inicio": "9:00 AM",
+    "hora_fin": "12:00 PM",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "EIN / PE Ingenio (PRIME y PME)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jmendez@zumaenergia.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "199bb2a6e07742b5"
+    ],
+    "notas": "Invitación original de ALVARO JACINTO ORTEGON (CFE): 'Cuándo: Mar 14/Oct/2025, de 9:00 AM a 12:00 PM'. Actividades: revisión de disco duro, BD, servicios, y pruebas de comunicación con Walmart.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Ventana de Tiempo 16 Octubre 2025 Programada",
+    "fecha": "2025-10-16",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Tiempo 16 Octubre 2025 Programada",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "199f0ab189e96bcc"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Fw: SSS - Cambios Prime Read - 22 Octubre 2025",
+    "fecha": "2025-10-22",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "SSS / Salsipuedes / Energyza",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "sibarrola@balamfund.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19a18e214c239a28"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "VENTANA DE MTTO DEMEX 1",
+    "fecha": "2025-10-27",
+    "hora_inicio": "9am",
+    "hora_fin": "11am",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "DEMEX (Bimbo)",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": null,
+    "liga_reunion": null,
+    "thread_ids": [
+      "19a262d2e9c9f0b3",
+      "19a29229cf87c73d"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: VENTANA DE MTTO DEMEX 1; Ventana de Demex 27 Octubre]",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Ventana de Tiempo Proyecto A3T 28 Octubre 2025",
+    "fecha": "2025-10-28",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19a29723978519e8"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "🗓 VENTANA MTTO ABT ION en October 29, 2025 | Read Informe de la Reunión",
+    "fecha": "2025-10-29",
+    "hora_inicio": "13:00",
+    "hora_fin": "14:34",
+    "timezone": "America/Mexico_City (CST, UTC-6) — derivado de raw_meeting_start_time 19:00 UTC / end 20:34:57 UTC",
+    "sistema_o_proyecto": "ABT ION (base de datos YonData / PME)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "executiveassistant@e.read.ai",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19a31b2ca9ade606"
+    ],
+    "notas": "Recap automático de Read AI de la reunión 'VENTANA MTTO ABT ION' ya celebrada; se discutió saturación de espacio en la base de datos YonData y plan de respaldo/nueva instancia.",
+    "sistema_tag": "ABT"
+  },
+  {
+    "titulo": "Minuta de ventana con CFE - BIMBO/NXTVIEW",
+    "fecha": "2025-11-12",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "BIMBO / NXTVIEW / CFE (porteo)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "rdiaz@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19a83635f13a1ba0"
+    ],
+    "notas": "Minuta de la ventana ya realizada: 'Fecha: Miércoles 12 de Noviembre del 2025', objetivo de validación de porteo con CFE. No se indica hora en el cuerpo.",
+    "sistema_tag": "Bimbo"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento DEMEX I",
+    "fecha": "2025-11-21",
+    "hora_inicio": "09:30",
+    "hora_fin": "12:30",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "DEMEX I (Bimbo / CFE)",
+    "estado": "tentativa",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19ab7eea66ef9fa6",
+      "19ab655df513a6e8",
+      "19aa75f5158d983c",
+      "19a9cd1236d965c2"
+    ],
+    "notas": "Reenvío de la cita original de CFE: 'Cuándo: viernes, 21 de noviembre de 2025 09:30 a.m.-12:30 p.m.'. Según otro hilo de esta misma serie (19abbafa83ecbd21), esta ventana fue reagendada posteriormente al martes 25-nov-2025. [Consolidado de 4 correos relacionados: Ventana de Mantenimiento DEMEX I; Ventana de Mantenimiento DEMEX I; Ventana de Mtto. DEMEX 1; Ventana de Mantenimiento DEMEX I]",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento DEMEX I",
+    "fecha": "2025-11-25",
+    "hora_inicio": "09:30",
+    "hora_fin": "12:30",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "DEMEX I (Bimbo / CFE)",
+    "estado": "tentativa",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "angelica.quiroz@grupobimbo.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19abbafa83ecbd21"
+    ],
+    "notas": "La ventana original estaba programada para el viernes 21-nov-2025 (09:30-12:30) pero fue reagendada: la cita reenviada indica 'Cuándo: martes, 25 de noviembre de 2025 9:30-12:30'. El mismo día 25-nov, Grupo Bimbo pregunta '¿tendremos esta sesión?' esperando confirmación en sala de espera, por lo que la certeza de ejecución quedó en duda.",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Solicitud de Ventana de Mantto. EDI y EDP.  24 y 25 de Noviembre 2025",
+    "fecha": "2025-11-25",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EDP / EDI (EDF licencias PrimeRead)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "huberto.tobias@edf-re.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19a9eaf5db4f9204"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2025-12-08",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "EIN (Zuma Energía / CFE)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jmendez@zumaenergia.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19af05a80730015b"
+    ],
+    "notas": "Invitación de CFE reenviada: 'programada para este lunes 8 de diciembre a las 9:00 am'; cita original 'Cuándo: lunes, 8 de diciembre de 2025 09:00 a.m.-12:00 p.m.'.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Firma reporte ventana del 9 de diciembre de 2025.",
+    "fecha": "2025-12-09",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Firma reporte ventana del 9 de diciembre de 2025.",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19bb90a2be05d500"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Mantenimiento Server Eolica del Golfo",
+    "fecha": "2025-12-09",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "EGU / Eólica del Golfo 1 (Vive Energía / CFE)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19ac1e087f367f77"
+    ],
+    "notas": "Solicitud (26-nov-2025) propone fechas '9 y 10 de Diciembre 2025' para mantenimiento presencial, con horario a definir por CFE. CFE responde el 3-dic-2025 'Confirmo fecha' sin especificar cuál de los dos días ni la hora. Fecha registrada como el primer día propuesto (9-dic); podría extenderse al 10-dic.",
+    "sistema_tag": "EGU / Eólica del Golfo"
+  },
+  {
+    "titulo": "Fw: Ventana de Mantenimiento DEMEX I",
+    "fecha": "2025-12-11",
+    "hora_inicio": "9:00am",
+    "hora_fin": "12:00pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "DEMEX I (Bimbo)",
+    "estado": "pendiente",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19b0515350821243"
+    ],
+    "notas": "Verificado via get_thread: invitacion CFE para jueves 11 de diciembre de 2025 09:00-12:00.",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "SSS - Porteo Noviembre 2025",
+    "fecha": "2025-12-11",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "SSS (Balam)",
+    "estado": "tentativa",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "sibarrola@balamfund.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19affcdd0d9b673a"
+    ],
+    "notas": "El hilo trata principalmente del reporte de porteo de noviembre 2025 y preguntas sobre los servidores; no es en sí una convocatoria de ventana. Sin embargo, el mensaje del 9-dic-2025 (martes) menciona: 'tendremos una ventana el jueves para validar temas de agendamientos', es decir jueves 11-dic-2025, sin hora especificada.",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "Your meeting recap - NXTView - SSS",
+    "fecha": "2025-12-23",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "SSS (servidor Caller / base de datos)",
+    "estado": "tentativa",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "fred@fireflies.ai",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19b32ed5d97010c2"
+    ],
+    "notas": "Recap de Fireflies de la reunión 'NXTView - SSS' del 18 dic 2025, 1:00 PM CST (la reunión en sí, no la ventana). Dentro del resumen se menciona: 'Prueba programada para el 23 de diciembre: Validar desactivación del antivirus y monitoreo del sistema en una ventana de mantenimiento', que es la ventana real referida en este hilo.",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "Ventana de Demex 1 (Bimbo)",
+    "fecha": "2026-01-09",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "DEMEX I (Bimbo)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19ba1b35c87061e5"
+    ],
+    "notas": "Correo enviado la madrugada del 9-ene-2026 ('Buenas tardes... les comparto el estatus posterior a la ventana'), reportando resultados con dashboard. La ventana ya había ocurrido; no se indica la fecha exacta de la ventana en sí (solo la del reporte).",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Ventana de mantenimiento Ingenio",
+    "fecha": "2026-01-13",
+    "hora_inicio": "9:00am",
+    "hora_fin": "12:00pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EIN / PE Ingenio (CFE Sureste)",
+    "estado": "pendiente",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19b9a757237da69e"
+    ],
+    "notas": "Verificado via get_thread: ventana de mantenimiento de enero 2026 para PE Ingenio, martes 13 ene 2026 9:00-12:00.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Ventana de A3T 16 Enero 2026",
+    "fecha": "2026-01-16",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "fsilva@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19bc54ad72a611db"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de soporte CFE Salsipuedes",
+    "fecha": "2026-01-23",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "CFE Salsipuedes (Energyza / Balam)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19be6ab2fe7b4416"
+    ],
+    "notas": "El 21-ene-2026 no había día/hora definidos ('podría ser hoy, jueves, viernes o lunes'). El 23-ene-2026 ya se reportan resultados de la ventana ejecutada, con adjuntos 'Device settings_23_enero_26_salsipuedes.xls' y 'PRCallLog_23 enero_26', por lo que se infiere que la ventana ocurrió el 23-ene-2026; no se especifica hora.",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "SOLICITUDES DE AGENDA Y VENTANA BIMBO",
+    "fecha": "2026-01-28",
+    "hora_inicio": "09:00",
+    "hora_fin": null,
+    "timezone": "CST (America/Mexico_City, hrs)",
+    "sistema_o_proyecto": "DEMEX (Bimbo)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jflores@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19c0096245917abf"
+    ],
+    "notas": "Correo del 27-ene-2026: 'Nos han dado ventana de mantenimiento para mañana a las 9am'; 'mañana' respecto al envío corresponde al 28 de enero de 2026. También se discuten solicitudes de ventana para febrero, sin fecha concreta.",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Bimbo y CFE en la ventana",
+    "fecha": "2026-02-03",
+    "hora_inicio": "1pm",
+    "hora_fin": "2pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Bimbo / CFE",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19c23fe73090b256",
+      "19c24ace7df030e5"
+    ],
+    "notas": "Agrupado de 2 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "Bimbo"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento 11 Febrero 2026",
+    "fecha": "2026-02-11",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Mantenimiento 11 Febrero 2026",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19c4f6135a985042"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de mantenimiento DEMEX I",
+    "fecha": "2026-02-11",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "DEMEX I (Bimbo)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "imondragon@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19c4d4a579f0f963",
+      "19c438ed7ec0a6e7"
+    ],
+    "notas": "Invitación de CFE: 'Cuándo: miércoles, 11 de febrero de 2026 09:00 a.m.-12:00 p.m.', descrita como 'ventana a mediado de mes'. Coincide en fecha con el ítem 11 (reporte/adjuntos del 11-feb-2026). [Consolidado de 2 correos relacionados: ventana demex 1; Ventana de mantenimiento DEMEX I]",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Ventana de mantenimiento Bii Hioxo",
+    "fecha": "2026-02-16",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "BII HIOXO (Naturgy)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19c67e22cf447b36"
+    ],
+    "notas": "Fecha tomada del fragmento visible del correo.",
+    "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "ventana pe ingenio",
+    "fecha": "2026-02-17",
+    "hora_inicio": "9am",
+    "hora_fin": "12pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EIN / PE Ingenio",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19c48e8c0be2e301",
+      "19c48cafb4c52dd3"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: ventana pe ingenio; Ventana de mantenimiento Ingenio]",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Ventana de mantenimiento DEMEX I",
+    "fecha": "2026-02-18",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "DEMEX I (Bimbo)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "imondragon@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19c438f6e3d699c3"
+    ],
+    "notas": "Invitación de CFE: 'Cuándo: miércoles, 18 de febrero de 2026 09:00 a.m.-12:00 p.m.'. Ventana descrita como la de '4 o 5 días antes del corte mensual' para validar servicios antes del porteo.",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Solicitud de Ventana de Mantto - Conectividad Puntos de Carga - Esquema NXVIEW",
+    "fecha": "2026-03-06",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EDF (conectividad puntos de carga, esquema NXVIEW)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "imondragon@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19cbc75671edbb77"
+    ],
+    "notas": "Verificado via get_thread: CFE otorgo la ventana solicitada para viernes 6 de marzo de 2026 (de opciones propuestas 6, 9 y 11 de marzo).",
+    "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2026-03-23",
+    "hora_inicio": "9:00am",
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EIN / PE Ingenio (CFE Sureste)",
+    "estado": "pendiente",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19cbe78aef9add7a"
+    ],
+    "notas": "Verificado via get_thread: ventana mensual con CFE Sureste programada para lunes 23 de marzo de 2026 a las 9:00 am.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Ventana de Mantto - NXTVIEW",
+    "fecha": "2026-03-24",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EDF",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jflores@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d074fd9e9e22d4"
+    ],
+    "notas": "Verificado via get_thread: EDF confirmo fecha de ventana de mantenimiento para martes 24 de marzo de 2026.",
+    "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento A3T 09 abril 2026",
+    "fecha": "2026-04-09",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "diego.torres@abent3t.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d745027dd1824f"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Solicitud Ventana Especial SSS - Abril 2026",
+    "fecha": "2026-04-10",
+    "hora_inicio": "16:00",
+    "hora_fin": null,
+    "timezone": "CST (America/Mexico_City, hrs)",
+    "sistema_o_proyecto": "SSS (CFE / Energyza / Balam)",
+    "estado": "tentativa",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "imondragon@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d8890da529d694"
+    ],
+    "notas": "Solicitud original (9 abr) propone 'viernes 10 de abril de 2026' para la ventana con CFE. Mensaje posterior (13 abr) confirma que se recibieron accesos y que la reunión 'dará inicio a las 16:00 hrs', pero sin repetir la fecha; no es claro si la ventana se ejecutó el 10-abr como se propuso originalmente o se corrió a mediados de abril, por lo que fecha se marca tentativa.",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "SSS Ventana CFE",
+    "fecha": "2026-04-13",
+    "hora_inicio": "4pm",
+    "hora_fin": "5pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "SSS / Salsipuedes",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d88e133afe7027"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "Ventana de mtto EDP",
+    "fecha": "2026-04-14",
+    "hora_inicio": "9am",
+    "hora_fin": "12pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EDP (EDF/PrimeRead)",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": null,
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d8742d536f7a73",
+      "19d8e2752130378a"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: Ventana de mtto EDP; Ventana de EDP 14 Abril 2026]",
+    "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "Ventana de mantenimiento DEM",
+    "fecha": "2026-04-14",
+    "hora_inicio": "9:00am",
+    "hora_fin": "12:00pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "DEM / DEMEX (Bimbo)",
+    "estado": "pendiente",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "imondragon@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d88bbd1cf63f22"
+    ],
+    "notas": "Verificado via get_thread: invitacion CFE para martes 14 abr 2026 9:00-12:00, reenviada por Emmanuel Cuenca (DEMEX) e Imanol Mondragon.",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EOA",
+    "fecha": "2026-04-14",
+    "hora_inicio": "9:00am",
+    "hora_fin": "12:00pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EOA (Grupo Dragon)",
+    "estado": "pendiente",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "fcuahutle@gdragon.com.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d7302d38f288b5"
+    ],
+    "notas": "Verificado via get_thread: invitacion CFE para martes 14 abr 2026 9:00-12:00, reenviada por Fernando Cuahutle (Grupo Dragon).",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento A3T",
+    "fecha": "2026-04-16",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "A3T",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d97ca48604b4fe"
+    ],
+    "notas": "Reporte enviado tras la ventana: 'reporte de la ventana de mantenimiento realizada el día 16 de abril 2026'. Adjunto 'Ventana de Tiempo 16 Abril 2026 A3T.pdf'. Sin hora en el texto. Incluye respuesta de OOO de un destinatario, no relevante a la fecha.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento ABT",
+    "fecha": "2026-04-16",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": "CST (America/Mexico_City)",
+    "sistema_o_proyecto": "ABT",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "diego.torres@abent3t.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d96d61188caa0a"
+    ],
+    "notas": "Invitación directa de calendario: 'jue abr. 16, 2026, 9:00 a.m.—12:00 p.m. (CST)'.",
+    "sistema_tag": "ABT"
+  },
+  {
+    "titulo": "Reporte Ventana Mantenimiento Naturgy",
+    "fecha": "2026-04-20",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "CFE / Naturgy",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19dbb4cf8a195b6c"
+    ],
+    "notas": "El hilo incluye dos reportes de ventanas distintas: la principal del lunes 20 de abril de 2026, y una reenviada posteriormente (25 mayo) que reporta otra ventana del 14 de mayo de 2026 (BII Hioxo).",
+    "sistema_tag": "Naturgy"
+  },
+  {
+    "titulo": "Ventana de mantenimiento ERT",
+    "fecha": "2026-04-20",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "ERT (Grupo México / CFE)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19db1196850cbf84",
+      "19d6d898255246f8"
+    ],
+    "notas": "Invitación original de CFE: 'When: Monday, April 20, 2026 9:00 AM-12:00 PM (UTC-06:00)'. Corresponde a la ventana reportada en el ítem 3 de esta lista. [Consolidado de 2 correos relacionados: Ventana de Mantenimiento ERT Grupo México Lunes 20 abril; Ventana de mantenimiento ERT]",
+    "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "🗓 Ventana de Mantenimiento / CFE / BRIO / NXTview en April 21, 2026 | Read Informe de la Reunión",
+    "fecha": "2026-04-21",
+    "hora_inicio": "12:30",
+    "hora_fin": "13:27",
+    "timezone": "America/Mexico_City (CST, UTC-6) — derivado de raw_meeting_start_time 18:30 UTC / end 19:27 UTC",
+    "sistema_o_proyecto": "CFE / BRIO / NXTview (medición, integración Medimem-PME)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "executiveassistant@e.read.ai",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19db2873fe8f29fa",
+      "19db185d7ad84ae4",
+      "19db13643638e6c7"
+    ],
+    "notas": "Recap automático de Read AI de la reunión ya celebrada. Se revisó pérdida de comunicación de medidores y validación con Medimem/PME, no fue una ventana técnica de mantenimiento de servidor sino sesión de seguimiento, pero el propio título del evento la etiqueta como 'Ventana de Mantenimiento'. [Consolidado de 3 correos relacionados: Solicitud de ventana de mantenimiento remoto – Validación de; 🗓 Ventana de Mantenimiento / CFE / BRIO / NXTview en April 2; Ventana de Mantenimiento / CFE / BRIO / NXTview]",
+    "sistema_tag": "BRIO"
+  },
+  {
+    "titulo": "Ventana Mantenimiento BRIO (MEM)",
+    "fecha": "2026-04-21",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "BRIO Energía (MEM)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19db21da1ba65599"
+    ],
+    "notas": "Confirmado por adjunto 'Ventana de Tiempo 21 Abril 2026 Brio.pdf', enviado el mismo día como reporte de la ventana.",
+    "sistema_tag": "BRIO"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2026-04-21",
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "timezone": "CST (America/Mexico_City)",
+    "sistema_o_proyecto": "EIN / PE Ingenio (Zuma Energía / CFE)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19d73af5dff9db81"
+    ],
+    "notas": "Invitación original de CFE: 'Cuándo: Mar 21/Abr/2026, de 9:00 AM a 11:00 AM'. Reenviada varias veces en el hilo.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Confirmación de actualización de servidores SALSIPUEDES y ventana de mtto. previa a migración programada.",
+    "fecha": "2026-04-29",
+    "hora_inicio": "10:00",
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "CFE / Servidor Salsipuedes (migración de servidores)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19dd16d55b012a63"
+    ],
+    "notas": "Ventana confirmada para el miércoles 29 de abril de 2026 a las 10:00 a.m. (acceso vía TeamViewer), previa a migración programada para la segunda semana de mayo.",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "Ventana para Instalación de Prime GRUPO SANCHEZ",
+    "fecha": "2026-05-12",
+    "hora_inicio": "11am",
+    "hora_fin": "1pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Grupo Sanchez (Prime)",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e04665e3c3a686"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento PRIME DRAGON ARRIAGA",
+    "fecha": "2026-05-13",
+    "hora_inicio": "9am",
+    "hora_fin": "12pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "PRIME DRAGON ARRIAGA",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e04676a18a5bb7",
+      "19e0478588ff1c2e"
+    ],
+    "notas": "Agrupado de 2 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de mantenimiento PRIME BII Hioxo - NATURGY",
+    "fecha": "2026-05-14",
+    "hora_inicio": "9am",
+    "hora_fin": "12pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "BII HIOXO (Naturgy)",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e046843cc1fd9d"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "Fuera de la oficina, periodo vacacional Re: Ventana de Mantenimiento 15 Mayo 2026",
+    "fecha": "2026-05-15",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Fuera de la oficina, periodo vacacional Re: Ventana de Mantenimiento 15 Mayo 2026",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e3ba9652ac10a2"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento 15 Mayo 2026",
+    "fecha": "2026-05-15",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Mantenimiento 15 Mayo 2026",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "diego.torres@abent3t.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e3b8c467746090"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de Mantenimiento PEI",
+    "fecha": "2026-05-19",
+    "hora_inicio": "9am",
+    "hora_fin": "10am",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Ventana de Mantenimiento PEI",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e083e6d7c4d376",
+      "19e083e88d5da2e7"
+    ],
+    "notas": "Agrupado de 2 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "ventana de mantenimiento EDF",
+    "fecha": "2026-05-21",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": "UTC-06:00",
+    "sistema_o_proyecto": "EDF / CFE",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "imondragon@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e4bdf2d0a9e4fa",
+      "19e484706faeb394"
+    ],
+    "notas": "Cita original: jueves 21 de mayo de 2026, 09:00 a.m.-12:00 p.m. (UTC-06:00). [Consolidado de 2 correos relacionados: Ventana de Mantenimiento EDF; ventana de mantenimiento EDF]",
+    "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "VENTANA CFE",
+    "fecha": "2026-05-25",
+    "hora_inicio": "11:30am",
+    "hora_fin": "12:30pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "VENTANA CFE",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e602f75da9ed60"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Solicitud ventana SSS - Mayo 2026",
+    "fecha": "2026-05-25",
+    "hora_inicio": "10:00",
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "AT&T / SSS Salsipuedes (CFE)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "cristian.dominguez@energyza.energy",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e6216c8a33beab",
+      "19e517c7f64db0cc"
+    ],
+    "notas": "Solicitada para 'lunes 25 de mayo' en 'horario indefinido'; correos muestran actividad real entre ~9:35 y 11:05 a.m. de ese día. [Consolidado de 2 correos relacionados: Ventana de Mantenimiento At&T; Solicitud ventana SSS - Mayo 2026]",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "corte previo a porteo mayo 26.xlsx",
+    "fecha": "2026-05-27",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "diego.torres@abent3t.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e716297eaf03ff"
+    ],
+    "notas": "Fecha tomada del fragmento visible del correo.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento A3T",
+    "fecha": "2026-06-10",
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "timezone": null,
+    "sistema_o_proyecto": "CFE / A3T",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "diego.torres@abent3t.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19e8e4d801072946"
+    ],
+    "notas": "Cita original: miércoles 10 de junio de 2026, 9:00-13:00.",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento DEM, DED",
+    "fecha": "2026-06-11",
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00",
+    "timezone": "UTC-06:00",
+    "sistema_o_proyecto": "CFE / DEM, DED (Grupo Bimbo - Demex Oaxaca)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "emmanuel.cuenca@demexoaxaca1.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19ebf8332d01cdeb",
+      "19eb7353486d51b9"
+    ],
+    "notas": "Cita original: jueves 11 de junio de 2026, 09:00 a.m.-01:00 p.m. (UTC-06:00). [Consolidado de 2 correos relacionados: Ventana de mantenimiento DEM, DED; Ventana de mantenimiento DEM, DED]",
+    "sistema_tag": "DEMEX"
+  },
+  {
+    "titulo": "Solicitud de Ventana Salsipuedes",
+    "fecha": "2026-06-17",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "AT&T / Servidor Salsipuedes (PrimeRead)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "imondragon@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19eb381f626ad8cc"
+    ],
+    "notas": "Solicitud enviada el 10 de junio; accesos otorgados y ventana ejecutada el 17 de junio de 2026.",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "🗓 RV: Ventana de mantenimiento EDF on June 23, 2026 | Read Meeting Report",
+    "fecha": "2026-06-23",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": "UTC-06:00",
+    "sistema_o_proyecto": "EDF / CFE",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "executiveassistant@e.read.ai",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f1902ff7d9dabe",
+      "19ef52a9e8a11d37",
+      "19ef221bb34ad0aa"
+    ],
+    "notas": "Correo recordatorio automático de Read AI. La fecha corresponde a la misma ventana EDF confirmada en otros hilos (09:00-12:00 UTC-06:00). [Consolidado de 3 correos relacionados: 🗓 RV: Ventana de mantenimiento EDF on June 23, 2026 | Read M; 🗓 RV: Ventana de mantenimiento EDF en June 23, 2026 | Read I; Ventana de mantenimiento EDF]",
+    "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "Ventana de mantenimiento BII Hioxo",
+    "fecha": "2026-06-24",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": "UTC-06:00",
+    "sistema_o_proyecto": "CFE Sureste / BII Hioxo (Naturgy)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f614ce95054935"
+    ],
+    "notas": "Reenvío del reporte resultado de la ventana del 24 de junio de 2026; invitación original: miércoles 24 de junio 09:00-12:00 (UTC-06:00).",
+    "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "Solicitud ventana SSS - Junio 2026",
+    "fecha": "2026-06-24",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "AT&T / SSS Salsipuedes (CFE)",
+    "estado": "tentativa",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "dana.garcia@energyza.energy",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19ef6f371835bf24"
+    ],
+    "notas": "El 24 de junio se retoma la solicitud, 'tentativamente programada para el día de mañana'. Mensajes posteriores indican que finalmente 'no fue posible que nos la autorizaran' y solo se otorgó tiempo limitado.",
+    "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "Reporte Ventana de Mto",
+    "fecha": "2026-06-25",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "PE Ingenio / Zuma Energía (CFE)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f241a40c685906"
+    ],
+    "notas": "'Reporte resultado de la ventana de mantenimiento del pasado 25 de Junio de 2026'; adjunto 'PE Ingenio revision 250626.pdf' confirma la fecha.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2026-06-25",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": null,
+    "sistema_o_proyecto": "CFE / EIN (Zuma Energía / Walmart)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19ef0de3b72af1bf"
+    ],
+    "notas": "Cita original: 'Jue 25/Jun/2026, de 9:00 AM a 12:00 PM'.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "AT&T ventana CFE",
+    "fecha": "2026-06-30",
+    "hora_inicio": "12pm",
+    "hora_fin": "12:30pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "AT&T / CFE",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f1663467f1e09c"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "AT&T / Energías Limpias"
+  },
+  {
+    "titulo": "Observaciones ventana de mantenimiento",
+    "fecha": "2026-07-13",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "ERT (Grupo Mexico - CFE Sureste)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f66c4ab3e35073",
+      "19f425adcffe24d1"
+    ],
+    "notas": "Verificado via get_thread: correo de observaciones post-ventana enviado 15 jul 2026 refiriendose a 'la ventana del dia de ayer' (14 jul) y a la ventana previa reportada por Grupo Mexico; corresponde al mismo ciclo que la ventana ERT del 13 de julio 2026. [Consolidado de 2 correos relacionados: Observaciones ventana de mantenimiento; Ventana de mantenimiento ERT]",
+    "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "Ventana de mantenimiento BII HIOXO",
+    "fecha": "2026-07-14",
+    "hora_inicio": "9am",
+    "hora_fin": "11am",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "BII HIOXO (Naturgy)",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": null,
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f4a6f9da85223c",
+      "19f614bfc0cf6c2b"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: Ventana de mantenimiento BII HIOXO; VENTANA DE ANTENIEMIENTO BII HIOXO 14 DE JULIO 2026]",
+    "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "Ventana de mantenimiento BII HIOXO",
+    "fecha": "2026-07-14",
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "timezone": "UTC-06:00",
+    "sistema_o_proyecto": "CFE Sureste / BII Hioxo (Naturgy)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f4a7016b99017b"
+    ],
+    "notas": "Cita original: martes 14 de julio de 2026, 09:00-11:00 a.m. (UTC-06:00).",
+    "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "Solicitud de ventana de tiempo servidor TRW",
+    "fecha": "2026-07-15",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "CFE / servidor TRW (Pantaleon / Powerview)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f66987b9e35274"
+    ],
+    "notas": "Solicitada para el 13 o 14 de julio; CFE respondió el 14 de julio: 'se puede otorgar la ventana de tiempo para el día de mañana', es decir 15 de julio de 2026.",
+    "sistema_tag": "TRW"
+  },
+  {
+    "titulo": "Ventana de mtto EDF",
+    "fecha": "2026-07-20",
+    "hora_inicio": "9:00am",
+    "hora_fin": "12:00pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EDF",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "Ricardo.Hernandez@edf-re.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f6df2453a0bcf9",
+      "19f684f12b83de1d"
+    ],
+    "notas": "Verificado via get_thread: invitacion CFE para lunes 20 jul 2026 09:00-12:00 (UTC-06:00). EDF pidio a NXTVIEW no conectarse a esta ventana en particular por problema de servidor pendiente de reemplazo; hubo reaccion de confirmacion (check) de un participante. [Consolidado de 2 correos relacionados: Ventana de mtto EDF; Ventana de mtto EDF]",
+    "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2026-07-21",
+    "hora_inicio": "9am",
+    "hora_fin": "11am",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EIN / PE Ingenio",
+    "estado": "pendiente",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": null,
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f4a6e9b33626bc"
+    ],
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Evidencia Ventana PEI 21 Julio 2026",
+    "fecha": "2026-07-21",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Evidencia Ventana PEI 21 Julio 2026",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "aocampo@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f8597228d78ee0"
+    ],
+    "notas": "Fecha tomada del asunto del correo.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2026-07-21",
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "timezone": null,
+    "sistema_o_proyecto": "CFE / EIN - PE Ingenio (Zuma Energía)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f4a6e12f73e2f0"
+    ],
+    "notas": "Cita original: 'Mar 21/Jul/2026, de 9:00 AM a 11:00 AM'.",
+    "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO AT&T 27 JULIO",
+    "fecha": "2026-07-27",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "AT&T / Energías Limpias II (Balam Fund) - PrimeRead",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "sibarrola@balamfund.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19faf4888b8a8329"
+    ],
+    "notas": "Reporte de resultados de la ventana realizada el lunes 27 de julio de 2026 (confirmado por 'la ventana de mantenimiento realizada el día de ayer' en correo del 28 de julio, y por el título del hilo). No se indica hora exacta en el cuerpo.",
+    "sistema_tag": "AT&T / Energías Limpias"
+  },
+  {
+    "titulo": "Plan de trabajo y solicitud de ventana lic. PrimeRead",
+    "fecha": "2026-08-10",
+    "hora_inicio": "9:00am",
+    "hora_fin": "11:00am",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "PrimeRead licenciamiento (CFE Bajio)",
+    "estado": "pendiente",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19fd95eada341cfa"
+    ],
+    "notas": "Verificado via get_thread: solicitud de ventana propuesta para lunes 10 de agosto 9-11am para dejar en ceros licencia de Bajio previo a unificacion de licencias PrimeRead.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "Ventana A3T Monterrey",
+    "fecha": "2026-08-12",
+    "hora_inicio": "12pm",
+    "hora_fin": "2pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "Juan Carlos Solis",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19fec766db970198",
+      "19ff188485622f1c",
+      "19fec47d7f739734"
+    ],
+    "notas": "Agrupado de 2 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: Ventana A3T Monterrey; Ventana Mtto Agosto 26]",
+    "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "Ventana de mantenimiento ERT",
+    "fecha": "2026-08-17",
+    "hora_inicio": "9:00am",
+    "hora_fin": "12:00pm",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "ERT (Grupo Mexico - CFE Sureste)",
+    "estado": "pendiente",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "hjaramillo@nxtview.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19fecaa77c3a3969"
+    ],
+    "notas": "Verificado via get_thread: invitacion original de CFE (alvaro.jacinto@cfe.mx) para lunes 17 ago 2026 9:00-12:00 (UTC-06:00), reenviada por Grupo Mexico y NXTVIEW.",
+    "sistema_tag": "ERT / El Retiro"
+  }
+]
