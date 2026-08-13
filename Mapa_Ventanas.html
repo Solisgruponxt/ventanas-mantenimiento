@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Ventanas de Mantenimiento — Línea de Tiempo</title>
+<title>Ventanas de Mantenimiento Medición — Línea de Tiempo</title>
 <style>
   :root {
     color-scheme: light;
@@ -95,8 +95,14 @@
   .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 80px; }
 
   header.top { margin-bottom: 20px; }
-  header.top h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  header.top .top-brand { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 4px; }
+  header.top .brand-logo { height: 84px; width: auto; flex: 0 0 auto; }
+  header.top h1 { font-size: 1.5rem; margin: 0; }
   header.top p { margin: 0; color: var(--text-secondary); font-size: 0.9rem; }
+
+  @media (max-width: 640px) {
+    header.top .brand-logo { height: 48px; }
+  }
 
   .kpi-row {
     display: grid;
@@ -301,15 +307,49 @@
     font-size: 0.9rem;
   }
 
+  .cal-nav { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+  .cal-month-label { font-weight: 600; font-size: 0.95rem; min-width: 140px; text-align: center; }
+  .calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+  .cal-dow { font-size: 0.68rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .03em; text-align: center; padding: 2px 0 6px; }
+  .cal-cell { min-height: 66px; border: 1px solid var(--border); border-radius: 6px; padding: 4px; background: var(--card-bg); }
+  .cal-cell-empty { background: transparent; border-color: transparent; }
+  .cal-today { border-color: var(--seq-450); border-width: 2px; }
+  .cal-daynum { font-size: 0.72rem; color: var(--text-muted); margin-bottom: 3px; }
+  .cal-events { display: flex; flex-direction: column; gap: 2px; }
+  .cal-chip {
+    font-size: 0.62rem;
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 1px 4px;
+    border-radius: 4px;
+    background: var(--chip-bg);
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;
+  }
+  .cal-chip-confirmada { background: var(--good-bg); }
+  .cal-chip-tentativa { background: var(--warning-bg); }
+  .cal-chip-pendiente { background: var(--muted-badge-bg); }
+  .cal-chip-cancelada { background: var(--critical-bg); text-decoration: line-through; }
+  .cal-chip-desconocido { background: var(--muted-badge-bg); }
+  .cal-chip-more { font-style: italic; font-weight: 400; color: var(--text-muted); background: transparent; padding: 1px 4px; }
+
   @media (max-width: 640px) {
     .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    .cal-cell { min-height: 48px; }
+    .cal-chip { font-size: 0.56rem; }
   }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
-    <h1>Ventanas de Mantenimiento</h1>
+    <div class="top-brand">
+      <h1>Ventanas de Mantenimiento Medición</h1>
+      <img src="nxtview-logo.png" alt="NXT View" class="brand-logo">
+    </div>
     <p>Línea de tiempo de ventanas de mantenimiento a servidores, extraídas de jsolis@nxtview.com</p>
   </header>
 
@@ -318,6 +358,16 @@
   <div class="chart-card">
     <h2>Ventanas por año<span class="hint">— clic en una barra para filtrar ese año</span></h2>
     <div class="bars" id="barsChart"></div>
+  </div>
+
+  <div class="chart-card">
+    <h2>Calendario mensual<span class="hint">— el tamaño de cada día muestra cuántas ventanas hay; el texto indica a quién está asignada</span></h2>
+    <div class="cal-nav">
+      <button type="button" class="kpi-nav-btn" id="calPrev">‹</button>
+      <div class="cal-month-label" id="calMonthLabel"></div>
+      <button type="button" class="kpi-nav-btn" id="calNext">›</button>
+    </div>
+    <div class="calendar-grid" id="calendarGrid"></div>
   </div>
 
   <div class="filters">
@@ -1967,6 +2017,7 @@ const DATA = [
 
 const MESES = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
 const MESES_LARGO = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const DIAS_SEMANA = ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'];
 
 const state = {
   search: '',
@@ -1974,6 +2025,7 @@ const state = {
   estados: new Set(),
   anios: new Set(),
   proximaIndex: 0,
+  calMonth: { year: new Date().getFullYear(), month: new Date().getMonth() },
 };
 
 function parseFecha(f) {
@@ -2131,6 +2183,59 @@ function matchesFilters(ev) {
   return true;
 }
 
+function buildCalendar(filtered) {
+  const grid = document.getElementById('calendarGrid');
+  const label = document.getElementById('calMonthLabel');
+  const y = state.calMonth.year, m = state.calMonth.month;
+  label.textContent = MESES_LARGO[m].charAt(0).toUpperCase() + MESES_LARGO[m].slice(1) + ' ' + y;
+
+  const byDay = {};
+  filtered.forEach(ev => {
+    const [ey, em, ed] = ev.f.split('-').map(Number);
+    if (ey !== y || (em - 1) !== m) return;
+    (byDay[ed] = byDay[ed] || []).push(ev);
+  });
+
+  grid.innerHTML = '';
+  DIAS_SEMANA.forEach(d => {
+    const h = document.createElement('div');
+    h.className = 'cal-dow';
+    h.textContent = d;
+    grid.appendChild(h);
+  });
+
+  const startWeekday = new Date(y, m, 1).getDay();
+  const daysInMonth = new Date(y, m + 1, 0).getDate();
+  const todayStr = new Date().toISOString().slice(0,10);
+
+  for (let i = 0; i < startWeekday; i++) {
+    const blank = document.createElement('div');
+    blank.className = 'cal-cell cal-cell-empty';
+    grid.appendChild(blank);
+  }
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const dateStr = y + '-' + String(m+1).padStart(2,'0') + '-' + String(day).padStart(2,'0');
+    const events = (byDay[day] || []).sort((a,b) => (a.hi||'').localeCompare(b.hi||''));
+    const cell = document.createElement('div');
+    cell.className = 'cal-cell' + (dateStr === todayStr ? ' cal-today' : '');
+    let inner = '<div class="cal-daynum">'+day+'</div>';
+    if (events.length) {
+      inner += '<div class="cal-events">';
+      events.slice(0,3).forEach(ev => {
+        const tip = ev.sis + ' — ' + estadoLabel(ev.est) + (ev.hi ? ' · ' + ev.hi : '') + (ev.hf ? '–'+ev.hf : '');
+        inner += '<div class="cal-chip cal-chip-'+ev.est+'" title="'+escapeHtml(tip)+'">'+escapeHtml(ev.sis)+'</div>';
+      });
+      if (events.length > 3) {
+        inner += '<div class="cal-chip cal-chip-more">+'+(events.length-3)+' más</div>';
+      }
+      inner += '</div>';
+    }
+    cell.innerHTML = inner;
+    grid.appendChild(cell);
+  }
+}
+
 function renderTimeline(filtered) {
   const timeline = document.getElementById('timeline');
   const emptyState = document.getElementById('emptyState');
@@ -2193,6 +2298,7 @@ function render() {
   const filtered = DATA.filter(matchesFilters);
   buildKPIs(filtered);
   buildBarsChart();
+  buildCalendar(filtered);
   renderTimeline(filtered);
 }
 
@@ -2207,11 +2313,28 @@ function init() {
   if (defaultIdx === -1) defaultIdx = sortedAll.length - 1;
   state.proximaIndex = Math.max(0, defaultIdx);
 
+  const defaultEvent = sortedAll[state.proximaIndex];
+  if (defaultEvent) {
+    const [dy, dm] = defaultEvent.f.split('-').map(Number);
+    state.calMonth = { year: dy, month: dm - 1 };
+  }
+
   buildFilterPanel('panelSistema', sistemas, state.sistemas);
   buildFilterPanel('panelEstado', estados, state.estados, estadoLabel);
   buildFilterPanel('panelAnio', anios, state.anios);
 
   setupDropdowns();
+
+  document.getElementById('calPrev').addEventListener('click', () => {
+    state.calMonth.month -= 1;
+    if (state.calMonth.month < 0) { state.calMonth.month = 11; state.calMonth.year -= 1; }
+    buildCalendar(DATA.filter(matchesFilters));
+  });
+  document.getElementById('calNext').addEventListener('click', () => {
+    state.calMonth.month += 1;
+    if (state.calMonth.month > 11) { state.calMonth.month = 0; state.calMonth.year += 1; }
+    buildCalendar(DATA.filter(matchesFilters));
+  });
 
   document.getElementById('searchBox').addEventListener('input', (e) => {
     state.search = e.target.value.trim();
