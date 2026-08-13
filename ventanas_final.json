@@ -2468,9 +2468,10 @@
     "thread_ids": [
       "19fec766db970198",
       "19ff188485622f1c",
-      "19fec47d7f739734"
+      "19fec47d7f739734",
+      "19ff2da88297b0f6"
     ],
-    "notas": "Agrupado de 2 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: Ventana A3T Monterrey; Ventana Mtto Agosto 26]",
+    "notas": "Agrupado de 3 correo(s) de invitacion/RSVP (incluye 1 rechazo de Jose Daniel Zarate Lopez, sin afectar la ejecucion de la ventana). [Consolidado de 2 correos relacionados: Ventana A3T Monterrey; Ventana Mtto Agosto 26]",
     "sistema_tag": "A3T"
   },
   {
@@ -2489,5 +2490,39 @@
     ],
     "notas": "Verificado via get_thread: invitacion original de CFE (alvaro.jacinto@cfe.mx) para lunes 17 ago 2026 9:00-12:00 (UTC-06:00), reenviada por Grupo Mexico y NXTVIEW.",
     "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "Fw: Ventana de mantenimiento EDF",
+    "fecha": "2026-08-14",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": null,
+    "sistema_o_proyecto": "EDF",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "huberto.tobias@edf-re.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19ff6d34523d04a5"
+    ],
+    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) reenviada por EDF: 'Cuando: viernes, 14 de agosto de 2026 09:00-12:00.' Reunion de Microsoft Teams. No se especifica timezone explicitamente en el correo (asumido horario de Mexico).",
+    "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "Reporte de actividades en ventana con CFE Sureste. Servidor FEBH.",
+    "fecha": "2026-07-23",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "Servidor FEBH (Naturgy / Global Power Generation, CFE Sureste)",
+    "estado": "desconocido",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "rmorales@globalpower-generation.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19f9064c87de30a2"
+    ],
+    "notas": "Reporte mensual de la ventana que CFE Sureste otorga via Teams para el servidor de FEBH. El adjunto se llama 'Informe ventana Jun 2026.pdf', por lo que la ventana reportada probablemente ocurrio en junio 2026, pero el cuerpo no especifica dia ni hora exactos. Se registra la fecha de envio del reporte (23-jul-2026) como referencia.",
+    "sistema_tag": "Naturgy"
   }
 ]
