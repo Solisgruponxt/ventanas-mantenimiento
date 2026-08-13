@@ -16,7 +16,7 @@ ARCHIVOS EN ESTE DIRECTORIO:
 
 PASO 1 - Leer estado: Lee sync_state.json para obtener last_event_fecha. Lee ventanas_final.json y arma un set con TODOS los thread_ids ya existentes (para no reprocesar correos ya conocidos).
 
-PASO 2 - Buscar correos nuevos: Usa la herramienta MCP de Gmail (search_threads) contra la cuenta jsolis@nxtview.com con variaciones de query como "subject:ventana", "ventana mantenimiento servidor", "mantenimiento servidor", restringido con "newer_than:35d" (margen suficiente para reagendamientos). Excluye cualquier thread_id que ya este en el set de conocidos del paso 1.
+PASO 2 - Buscar correos nuevos: Usa la herramienta MCP de Gmail (search_threads) contra la cuenta jsolis@nxtview.com con variaciones de query como "subject:ventana", "ventana mantenimiento servidor", "mantenimiento servidor", restringido con "after:AFTER_DATE_PLACEHOLDER" (desde el 1 de enero del año en curso; los correos de años anteriores ya estan reflejados en el dataset historico y no requieren reprocesarse). Excluye cualquier thread_id que ya este en el set de conocidos del paso 1.
 
 PASO 3 - Clasificar y extraer cada correo nuevo:
 - Dos tipos: (a) invitaciones de calendario, fecha/hora en el asunto o en linea "Cuando:"/"When:" del cuerpo; (b) correos reenviados/manuales sin fecha en el asunto, requieren abrir el cuerpo con get_thread.
@@ -33,6 +33,9 @@ PASO 6 - Commit y push: SOLO si se agregaron eventos nuevos, hacer "git add", co
 
 Se conservador: ante ambiguedad de si un correo es o no una ventana real, prefiere no agregarlo antes que ensuciar el dataset.
 '@
+
+$afterDate = (Get-Date -Month 1 -Day 1).ToString('yyyy/MM/dd')
+$prompt = $prompt -replace 'AFTER_DATE_PLACEHOLDER', $afterDate
 
 $allowedTools = @(
   'Bash(git *)',
