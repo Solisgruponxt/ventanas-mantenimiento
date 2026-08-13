@@ -113,6 +113,23 @@
   .kpi-tile .label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 6px; }
   .kpi-tile .value { font-size: 1.5rem; font-weight: 600; line-height: 1.15; }
   .kpi-tile .sub { font-size: 0.78rem; color: var(--text-secondary); margin-top: 2px; }
+  .kpi-tile-nav .kpi-nav-hint { text-transform: none; font-weight: 400; letter-spacing: 0; margin-left: 6px; }
+  .kpi-tile-nav .kpi-nav-row { display: flex; align-items: center; gap: 8px; }
+  .kpi-tile-nav .kpi-nav-value { flex: 1; min-width: 0; font-size: 1.2rem; text-align: center; }
+  .kpi-nav-btn {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    line-height: 1;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--chip-bg);
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  .kpi-nav-btn:hover:not(:disabled) { background: var(--seq-450); color: #fff; }
+  .kpi-nav-btn:disabled { opacity: 0.35; cursor: default; }
 
   .chart-card {
     background: var(--surface-1);
@@ -1945,7 +1962,8 @@ const DATA = [
     "tit": "Fwd: Ventana de mantenimiento BII Hioxo",
     "not": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) reenviada por Ricardo Morales (Global Power Generation) y Miguel Najera: 'Cuando: lunes, 24 de agosto de 2026 09:00 a.m.-12:00 p.m. (UTC-06:00)'. Equipo Nxt View debe programarse de 9:00 a 10:00 horas; equipo Tesren a partir de las 10:00 horas."
   }
-];
+]
+;
 
 const MESES = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
 const MESES_LARGO = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
@@ -1955,6 +1973,7 @@ const state = {
   sistemas: new Set(),
   estados: new Set(),
   anios: new Set(),
+  proximaIndex: 0,
 };
 
 function parseFecha(f) {
@@ -1980,20 +1999,48 @@ function buildKPIs(filtered) {
   const confirmadas = DATA.filter(e => e.est === 'confirmada').length;
   const pctConfirmadas = total ? Math.round(confirmadas/total*100) : 0;
 
-  const todayStr = new Date().toISOString().slice(0,10);
-  const futuras = DATA.filter(e => e.f >= todayStr).sort((a,b) => a.f.localeCompare(b.f));
-  const proxima = futuras[0];
+  const sortedAll = [...DATA].sort((a,b) => a.f.localeCompare(b.f));
+  if (sortedAll.length) {
+    state.proximaIndex = Math.max(0, Math.min(state.proximaIndex, sortedAll.length - 1));
+  }
+  const proxima = sortedAll[state.proximaIndex];
 
   const kpiRow = document.getElementById('kpiRow');
   kpiRow.innerHTML = '';
 
-  const tiles = [
-    {label: 'Total ventanas registradas', value: total, sub: shown !== total ? (shown + ' visibles con filtro actual') : 'histórico completo'},
-    {label: 'Próxima ventana', value: proxima ? parseFecha(proxima.f).toLocaleDateString('es-MX', {day:'numeric', month:'short'}) : '—', sub: proxima ? (proxima.sis + (proxima.hi ? ' · ' + proxima.hi : '')) : 'sin ventanas futuras registradas'},
-    {label: 'Sistemas distintos', value: sistemasDistintos, sub: 'servidores / proyectos'},
-    {label: 'Confirmadas', value: pctConfirmadas + '%', sub: confirmadas + ' de ' + total + ' ventanas'},
-  ];
-  tiles.forEach(t => {
+  const tileTotal = {label: 'Total ventanas registradas', value: total, sub: shown !== total ? (shown + ' visibles con filtro actual') : 'histórico completo'};
+  const tileSistemas = {label: 'Sistemas distintos', value: sistemasDistintos, sub: 'servidores / proyectos'};
+  const tileConfirmadas = {label: 'Confirmadas', value: pctConfirmadas + '%', sub: confirmadas + ' de ' + total + ' ventanas'};
+
+  [tileTotal].forEach(t => {
+    const div = document.createElement('div');
+    div.className = 'kpi-tile';
+    div.innerHTML = '<div class="label">'+t.label+'</div><div class="value">'+t.value+'</div><div class="sub">'+t.sub+'</div>';
+    kpiRow.appendChild(div);
+  });
+
+  const navDiv = document.createElement('div');
+  navDiv.className = 'kpi-tile kpi-tile-nav';
+  if (!proxima) {
+    navDiv.innerHTML = '<div class="label">Próxima ventana</div><div class="value">—</div><div class="sub">sin ventanas registradas</div>';
+  } else {
+    const fechaStr = parseFecha(proxima.f).toLocaleDateString('es-MX', {day:'numeric', month:'short', year:'numeric'});
+    navDiv.innerHTML =
+      '<div class="label">Ventana<span class="kpi-nav-hint">'+(state.proximaIndex+1)+' de '+sortedAll.length+'</span></div>'+
+      '<div class="kpi-nav-row">'+
+        '<button type="button" class="kpi-nav-btn" id="proximaPrev"'+(state.proximaIndex<=0?' disabled':'')+'>‹</button>'+
+        '<div class="value kpi-nav-value">'+fechaStr+'</div>'+
+        '<button type="button" class="kpi-nav-btn" id="proximaNext"'+(state.proximaIndex>=sortedAll.length-1?' disabled':'')+'>›</button>'+
+      '</div>'+
+      '<div class="sub">'+escapeHtml(proxima.sis)+(proxima.hi ? ' · ' + proxima.hi : '')+'</div>';
+  }
+  kpiRow.appendChild(navDiv);
+  const prevBtn = navDiv.querySelector('#proximaPrev');
+  const nextBtn = navDiv.querySelector('#proximaNext');
+  if (prevBtn) prevBtn.addEventListener('click', () => { state.proximaIndex -= 1; buildKPIs(filtered); });
+  if (nextBtn) nextBtn.addEventListener('click', () => { state.proximaIndex += 1; buildKPIs(filtered); });
+
+  [tileSistemas, tileConfirmadas].forEach(t => {
     const div = document.createElement('div');
     div.className = 'kpi-tile';
     div.innerHTML = '<div class="label">'+t.label+'</div><div class="value">'+t.value+'</div><div class="sub">'+t.sub+'</div>';
@@ -2153,6 +2200,12 @@ function init() {
   const sistemas = [...new Set(DATA.map(e => e.sis))].sort();
   const estados = ['confirmada','tentativa','pendiente','cancelada','desconocido'];
   const anios = [...new Set(DATA.map(e => e.f.slice(0,4)))].sort((a,b) => b.localeCompare(a));
+
+  const sortedAll = [...DATA].sort((a,b) => a.f.localeCompare(b.f));
+  const todayStr = new Date().toISOString().slice(0,10);
+  let defaultIdx = sortedAll.findIndex(e => e.f >= todayStr);
+  if (defaultIdx === -1) defaultIdx = sortedAll.length - 1;
+  state.proximaIndex = Math.max(0, defaultIdx);
 
   buildFilterPanel('panelSistema', sistemas, state.sistemas);
   buildFilterPanel('panelEstado', estados, state.estados, estadoLabel);
