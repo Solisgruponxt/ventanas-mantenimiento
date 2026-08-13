@@ -318,6 +318,8 @@
       <div class="dropdown-panel" id="panelAnio"></div>
     </div>
     <button class="clear-btn" id="clearFilters">Limpiar filtros</button>
+    <button class="clear-btn" id="syncNowBtn" title="Ejecuta en esta PC la sincronizacion con Gmail, igual que la tarea automatica diaria">🔄 Sincronizar ahora</button>
+    <span class="event-time" id="syncStatus" style="display:none;"></span>
   </div>
 
   <div id="timeline"></div>
@@ -552,6 +554,13 @@ function init() {
     document.getElementById('searchBox').value = '';
     document.querySelectorAll('.dropdown-panel input[type=checkbox]').forEach(cb => cb.checked = false);
     render();
+  });
+
+  document.getElementById('syncNowBtn').addEventListener('click', () => {
+    const status = document.getElementById('syncStatus');
+    status.style.display = 'inline';
+    status.textContent = 'Abriendo sincronizacion en esta PC… revisa la ventana de PowerShell y recarga la pagina cuando termine (1-2 min).';
+    window.location.href = 'ventanas-sync:run';
   });
 
   render();

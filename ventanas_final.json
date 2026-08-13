@@ -2524,5 +2524,22 @@
     ],
     "notas": "Reporte mensual de la ventana que CFE Sureste otorga via Teams para el servidor de FEBH. El adjunto se llama 'Informe ventana Jun 2026.pdf', por lo que la ventana reportada probablemente ocurrio en junio 2026, pero el cuerpo no especifica dia ni hora exactos. Se registra la fecha de envio del reporte (23-jul-2026) como referencia.",
     "sistema_tag": "Naturgy"
+  },
+  {
+    "titulo": "Fwd: Ventana de mantenimiento BII Hioxo",
+    "fecha": "2026-08-24",
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "BII Hioxo (Naturgy / CFE Sureste)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mnajera@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "19ffbfa9cd5aa50e"
+    ],
+    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) reenviada por Ricardo Morales (Global Power Generation) y Miguel Najera: 'Cuando: lunes, 24 de agosto de 2026 09:00 a.m.-12:00 p.m. (UTC-06:00)'. Equipo Nxt View debe programarse de 9:00 a 10:00 horas; equipo Tesren a partir de las 10:00 horas.",
+    "sistema_tag": "BII Hioxo"
   }
 ]
