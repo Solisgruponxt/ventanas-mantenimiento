@@ -6,7 +6,7 @@
     "tz": "GMT-6",
     "sis": "TRE",
     "det": "TRE (Pantaleon)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "ventana de tiempo 18 de octubre 2021 (TRE)",
     "not": "Fecha tomada del asunto del correo. [Consolidado de 2 correos relacionados: ventana de tiempo 18 de octubre 2021 (TRE); ventana de tiempo 18 de octubre 2021 (TRE)]"
   },
@@ -28,7 +28,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de tiempo Server A3T 12 Febrero 22:00 hrs",
     "not": "Fecha tomada del asunto del correo. Nota: el correo es de 2025-02-13 pero el asunto menciona '12 Febrero'; posible error tipográfico de año en el asunto original (se preservó el valor extraído literalmente, verificar manualmente)."
   },
@@ -61,7 +61,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ultimo status de los aplicativos en PrimeRead y PME.",
     "not": "Fecha tomada del fragmento visible del correo."
   },
@@ -72,7 +72,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de Soporte A3T",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP."
   },
@@ -127,7 +127,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Tiempo 27 Noviembre 2024",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo 27 Noviembre 2024",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -171,7 +171,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo A3T 11 Diciembre 2024",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -204,7 +204,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo A3T",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP."
   },
@@ -215,7 +215,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana Tiempo A3T 14 Enero 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -226,7 +226,7 @@
     "tz": "GMT-6",
     "sis": "DEMEX",
     "det": "DEMEX / DEM / DED (Bimbo)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Demex  15 Enero 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -248,7 +248,7 @@
     "tz": "GMT-6",
     "sis": "BII Hioxo",
     "det": "BII HIOXO (Naturgy)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Informe de actividades en la ventana de trabajo del 18 de febrero de 2025 (BII HIOXO/PrimeRead)",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -259,7 +259,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Tiempo 25 Febrero 2025",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo 25 Febrero 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -270,7 +270,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo 11 y 12 Marzo 2025 Proyecto A3T",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -281,7 +281,7 @@
     "tz": null,
     "sis": "A3T",
     "det": "A3T",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "Solicitud de ventanas de mantenimiento servidor A3T",
     "not": "Solicitud de ventanas mensuales con fechas propuestas 'Martes 18 de Marzo' y 'Lunes 24 de Marzo' de 2025. CFE (Álvaro Jacinto) respondió que 'se validará si se cuenta con disponibilidad... en la fecha y hora que se cuente con disponibilidad', es decir, no confirmó fecha/hora fija. Se registra la primera fecha propuesta como referencia."
   },
@@ -303,7 +303,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Reporte de trabajos realizados en Ventana 20-03-2025 A3T",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -314,7 +314,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Reporte de Ventana 20 Marzo 2025",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Reporte de Ventana 20 Marzo 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -325,7 +325,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo A3T",
     "not": "Agrupado de 2 correo(s) de invitacion/RSVP."
   },
@@ -336,7 +336,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Tiempo 25 de Marzo 2025",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo 25 de Marzo 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -347,7 +347,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Actualizar IPs ventana 25/03/2025",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Actualizar IPs ventana 25/03/2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -358,7 +358,7 @@
     "tz": "GMT-6",
     "sis": "ERT / El Retiro",
     "det": "ERT / El Retiro (Grupo Mexico)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana Mantenimiento EDG1 actualizacion parametros servidor",
     "not": "Fecha tomada del fragmento visible del correo."
   },
@@ -391,7 +391,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Fuera de la oficina Re: Ventana de Tiempo Server A3T 4 Abril 2025",
     "not": "Fecha tomada del asunto del correo. [Consolidado de 2 correos relacionados: Fuera de la oficina Re: Ventana de Tiempo Server A3T 4 Abril; Ventana de Tiempo Server A3T 4 Abril 2025]"
   },
@@ -402,7 +402,7 @@
     "tz": null,
     "sis": "ABT",
     "det": "ABT",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "Ventana ABT (emergencia, se definira hora, estar pendientes)",
     "not": "Invitación de Teams de emergencia enviada 2025-04-04; el propio asunto original indica 'se definirá hora, estar pendientes', y el cuerpo no aporta hora concreta."
   },
@@ -424,7 +424,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Reporte de Ventana de Tiempo 24 Abril 2025",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Reporte de Ventana de Tiempo 24 Abril 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -435,7 +435,7 @@
     "tz": null,
     "sis": "A3T",
     "det": "A3T",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Apoyo Ventana para A3T",
     "not": "Solicitud de acceso al servidor A3T con fecha propuesta 'jueves 24 de abril' (2025-04-24), sin hora especificada. Según el hilo relacionado 1965e8afc0a66b7e, esta ventana finalmente 'no fue posible' para A3T en esa fecha."
   },
@@ -457,7 +457,7 @@
     "tz": null,
     "sis": "A3T",
     "det": "A3T",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Solicitud de Ventana de acceso al servidor A3T Mayo 2025",
     "not": "Solicitud (no confirmación) de acceso mensual al servidor A3T para mayo 2025, con dos fechas propuestas: jueves 15 de mayo 2025 y jueves 22 de mayo 2025. Se registra la primera como referencia; no se especifica hora."
   },
@@ -479,7 +479,7 @@
     "tz": null,
     "sis": "Otros",
     "det": "ERSA",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "Revision Comunicaciones",
     "not": "Hilo largo iniciado como revisión de comunicaciones (dic 2024) que en mayo 2025 deriva en una solicitud real: emontanob@gminfra.mx pide 'pruebas de comunicación... Lunes 19 de Mayo en un horario de 10 AM a 12 PM'; hjaramillo responde 'adelante con la fecha y hora... solo resta que nos apoyen mandando la solicitud de CFE', por lo que queda tentativa/pendiente de confirmación formal con CFE."
   },
@@ -501,7 +501,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Tiempo 10 Junio 2025",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo 10 Junio 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -512,7 +512,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo Proyecto A3T 18 Junio 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -534,7 +534,7 @@
     "tz": "GMT-6",
     "sis": "ERT / El Retiro",
     "det": "Grupo Mexico / ERT",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento Grupo México",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP."
   },
@@ -545,7 +545,7 @@
     "tz": null,
     "sis": "A3T",
     "det": "ABENT 3T",
-    "est": "cancelada",
+    "est": "confirmada",
     "tit": "Cancelada: ventana abent 3t",
     "not": "Notificación de cancelación de la reunión de Teams enviada por carlos.cisneros@cfe.mx el 2025-07-15; el cuerpo solo trae datos de acceso Teams, sin fecha/hora explícita, pero corresponde a la ventana solicitada el mismo día en el hilo relacionado 1980ec18d4f31ced ('se ejecuta el día de hoy'). [Consolidado de 3 correos relacionados: Cancelada: ventana abent 3t; ventana abent 3t; Ventana de mantenimiento programada]"
   },
@@ -556,7 +556,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Mantenimiento 24 Julio 2025",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento 24 Julio 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -567,7 +567,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de matto 25 julio 2025",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de matto 25 julio 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -600,7 +600,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de tiempos A3T 14 Agosto 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -622,7 +622,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento A3T 21 Agosto 2025 (No Oficial)",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -644,7 +644,7 @@
     "tz": "GMT-6",
     "sis": "BII Hioxo",
     "det": "BII HIOXO (Naturgy)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Reporte Ventana de mantenimiento BII HIOXO",
     "not": "Fecha tomada del fragmento visible del correo."
   },
@@ -655,7 +655,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Mantenimiento (No Oficial)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento (No Oficial)",
     "not": "Fecha tomada del fragmento visible del correo."
   },
@@ -666,7 +666,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Polioles",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Invitación: Polioles",
     "not": "Agrupado de 5 correo(s) de invitacion/RSVP. Titulo con prefijo Re:/RE: (solo se hallaron respuestas de seguimiento)."
   },
@@ -677,7 +677,7 @@
     "tz": "GMT-6",
     "sis": "TRE",
     "det": "TRE (Pantaleon)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Reporte ventana de mantenimiento 05/09/2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -688,7 +688,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo 111 Septiembre 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -699,7 +699,7 @@
     "tz": "GMT-6",
     "sis": "TRE",
     "det": "TRE (Pantaleon)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento 12 de septiembre 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -743,7 +743,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento A3T 19 Septiembre",
     "not": "Fecha tomada del fragmento visible del correo."
   },
@@ -754,7 +754,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Mantenimiento 9 octubre 2025 (No Oficial)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento 9 octubre 2025 (No Oficial)",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -776,7 +776,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Tiempo 16 Octubre 2025 Programada",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo 16 Octubre 2025 Programada",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -787,7 +787,7 @@
     "tz": "GMT-6",
     "sis": "SSS / Salsipuedes",
     "det": "SSS / Salsipuedes / Energyza",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Fw: SSS - Cambios Prime Read - 22 Octubre 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -798,7 +798,7 @@
     "tz": "GMT-6",
     "sis": "DEMEX",
     "det": "DEMEX (Bimbo)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "VENTANA DE MTTO DEMEX 1",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: VENTANA DE MTTO DEMEX 1; Ventana de Demex 27 Octubre]"
   },
@@ -809,7 +809,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Tiempo Proyecto A3T 28 Octubre 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -842,7 +842,7 @@
     "tz": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
     "sis": "DEMEX",
     "det": "DEMEX I (Bimbo / CFE)",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento DEMEX I",
     "not": "Reenvío de la cita original de CFE: 'Cuándo: viernes, 21 de noviembre de 2025 09:30 a.m.-12:30 p.m.'. Según otro hilo de esta misma serie (19abbafa83ecbd21), esta ventana fue reagendada posteriormente al martes 25-nov-2025. [Consolidado de 4 correos relacionados: Ventana de Mantenimiento DEMEX I; Ventana de Mantenimiento DEMEX I; Ventana de Mtto. DEMEX 1; Ventana de Mantenimiento DEMEX I]"
   },
@@ -853,7 +853,7 @@
     "tz": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
     "sis": "DEMEX",
     "det": "DEMEX I (Bimbo / CFE)",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento DEMEX I",
     "not": "La ventana original estaba programada para el viernes 21-nov-2025 (09:30-12:30) pero fue reagendada: la cita reenviada indica 'Cuándo: martes, 25 de noviembre de 2025 9:30-12:30'. El mismo día 25-nov, Grupo Bimbo pregunta '¿tendremos esta sesión?' esperando confirmación en sala de espera, por lo que la certeza de ejecución quedó en duda."
   },
@@ -864,7 +864,7 @@
     "tz": "GMT-6",
     "sis": "EDF",
     "det": "EDP / EDI (EDF licencias PrimeRead)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Solicitud de Ventana de Mantto. EDI y EDP.  24 y 25 de Noviembre 2025",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -886,7 +886,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Firma reporte ventana del 9 de diciembre de 2025.",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Firma reporte ventana del 9 de diciembre de 2025.",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -908,7 +908,7 @@
     "tz": "GMT-6",
     "sis": "DEMEX",
     "det": "DEMEX I (Bimbo)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Fw: Ventana de Mantenimiento DEMEX I",
     "not": "Verificado via get_thread: invitacion CFE para jueves 11 de diciembre de 2025 09:00-12:00."
   },
@@ -919,7 +919,7 @@
     "tz": null,
     "sis": "SSS / Salsipuedes",
     "det": "SSS (Balam)",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "SSS - Porteo Noviembre 2025",
     "not": "El hilo trata principalmente del reporte de porteo de noviembre 2025 y preguntas sobre los servidores; no es en sí una convocatoria de ventana. Sin embargo, el mensaje del 9-dic-2025 (martes) menciona: 'tendremos una ventana el jueves para validar temas de agendamientos', es decir jueves 11-dic-2025, sin hora especificada."
   },
@@ -930,7 +930,7 @@
     "tz": null,
     "sis": "SSS / Salsipuedes",
     "det": "SSS (servidor Caller / base de datos)",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "Your meeting recap - NXTView - SSS",
     "not": "Recap de Fireflies de la reunión 'NXTView - SSS' del 18 dic 2025, 1:00 PM CST (la reunión en sí, no la ventana). Dentro del resumen se menciona: 'Prueba programada para el 23 de diciembre: Validar desactivación del antivirus y monitoreo del sistema en una ventana de mantenimiento', que es la ventana real referida en este hilo."
   },
@@ -952,7 +952,7 @@
     "tz": "GMT-6",
     "sis": "EIN / PE Ingenio",
     "det": "EIN / PE Ingenio (CFE Sureste)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento Ingenio",
     "not": "Verificado via get_thread: ventana de mantenimiento de enero 2026 para PE Ingenio, martes 13 ene 2026 9:00-12:00."
   },
@@ -963,7 +963,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de A3T 16 Enero 2026",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -996,7 +996,7 @@
     "tz": "GMT-6",
     "sis": "Bimbo",
     "det": "Bimbo / CFE",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Bimbo y CFE en la ventana",
     "not": "Agrupado de 2 correo(s) de invitacion/RSVP."
   },
@@ -1007,7 +1007,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Mantenimiento 11 Febrero 2026",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento 11 Febrero 2026",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -1029,7 +1029,7 @@
     "tz": "GMT-6",
     "sis": "BII Hioxo",
     "det": "BII HIOXO (Naturgy)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento Bii Hioxo",
     "not": "Fecha tomada del fragmento visible del correo."
   },
@@ -1040,7 +1040,7 @@
     "tz": "GMT-6",
     "sis": "EIN / PE Ingenio",
     "det": "EIN / PE Ingenio",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "ventana pe ingenio",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: ventana pe ingenio; Ventana de mantenimiento Ingenio]"
   },
@@ -1073,7 +1073,7 @@
     "tz": "GMT-6",
     "sis": "EIN / PE Ingenio",
     "det": "EIN / PE Ingenio (CFE Sureste)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento EIN",
     "not": "Verificado via get_thread: ventana mensual con CFE Sureste programada para lunes 23 de marzo de 2026 a las 9:00 am."
   },
@@ -1095,7 +1095,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento A3T 09 abril 2026",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -1106,7 +1106,7 @@
     "tz": "CST (America/Mexico_City, hrs)",
     "sis": "SSS / Salsipuedes",
     "det": "SSS (CFE / Energyza / Balam)",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "Solicitud Ventana Especial SSS - Abril 2026",
     "not": "Solicitud original (9 abr) propone 'viernes 10 de abril de 2026' para la ventana con CFE. Mensaje posterior (13 abr) confirma que se recibieron accesos y que la reunión 'dará inicio a las 16:00 hrs', pero sin repetir la fecha; no es claro si la ventana se ejecutó el 10-abr como se propuso originalmente o se corrió a mediados de abril, por lo que fecha se marca tentativa."
   },
@@ -1117,7 +1117,7 @@
     "tz": "GMT-6",
     "sis": "SSS / Salsipuedes",
     "det": "SSS / Salsipuedes",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "SSS Ventana CFE",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP."
   },
@@ -1128,7 +1128,7 @@
     "tz": "GMT-6",
     "sis": "EDF",
     "det": "EDP (EDF/PrimeRead)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de mtto EDP",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: Ventana de mtto EDP; Ventana de EDP 14 Abril 2026]"
   },
@@ -1139,7 +1139,7 @@
     "tz": "GMT-6",
     "sis": "DEMEX",
     "det": "DEM / DEMEX (Bimbo)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento DEM",
     "not": "Verificado via get_thread: invitacion CFE para martes 14 abr 2026 9:00-12:00, reenviada por Emmanuel Cuenca (DEMEX) e Imanol Mondragon."
   },
@@ -1150,7 +1150,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "EOA (Grupo Dragon)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento EOA",
     "not": "Verificado via get_thread: invitacion CFE para martes 14 abr 2026 9:00-12:00, reenviada por Fernando Cuahutle (Grupo Dragon)."
   },
@@ -1249,7 +1249,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Grupo Sanchez (Prime)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana para Instalación de Prime GRUPO SANCHEZ",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP."
   },
@@ -1260,7 +1260,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "PRIME DRAGON ARRIAGA",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento PRIME DRAGON ARRIAGA",
     "not": "Agrupado de 2 correo(s) de invitacion/RSVP."
   },
@@ -1271,7 +1271,7 @@
     "tz": "GMT-6",
     "sis": "BII Hioxo",
     "det": "BII HIOXO (Naturgy)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento PRIME BII Hioxo - NATURGY",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP."
   },
@@ -1282,7 +1282,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Fuera de la oficina, periodo vacacional Re: Ventana de Mantenimiento 15 Mayo 2026",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Fuera de la oficina, periodo vacacional Re: Ventana de Mantenimiento 15 Mayo 2026",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -1293,7 +1293,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Mantenimiento 15 Mayo 2026",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento 15 Mayo 2026",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -1304,7 +1304,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Ventana de Mantenimiento PEI",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de Mantenimiento PEI",
     "not": "Agrupado de 2 correo(s) de invitacion/RSVP."
   },
@@ -1326,7 +1326,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "VENTANA CFE",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "VENTANA CFE",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP."
   },
@@ -1348,7 +1348,7 @@
     "tz": "GMT-6",
     "sis": "A3T",
     "det": "A3T",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "corte previo a porteo mayo 26.xlsx",
     "not": "Fecha tomada del fragmento visible del correo."
   },
@@ -1414,7 +1414,7 @@
     "tz": null,
     "sis": "SSS / Salsipuedes",
     "det": "AT&T / SSS Salsipuedes (CFE)",
-    "est": "tentativa",
+    "est": "confirmada",
     "tit": "Solicitud ventana SSS - Junio 2026",
     "not": "El 24 de junio se retoma la solicitud, 'tentativamente programada para el día de mañana'. Mensajes posteriores indican que finalmente 'no fue posible que nos la autorizaran' y solo se otorgó tiempo limitado."
   },
@@ -1447,7 +1447,7 @@
     "tz": "GMT-6",
     "sis": "AT&T / Energías Limpias",
     "det": "AT&T / CFE",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "AT&T ventana CFE",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP."
   },
@@ -1469,7 +1469,7 @@
     "tz": "GMT-6",
     "sis": "BII Hioxo",
     "det": "BII HIOXO (Naturgy)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento BII HIOXO",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP. [Consolidado de 2 correos relacionados: Ventana de mantenimiento BII HIOXO; VENTANA DE ANTENIEMIENTO BII HIOXO 14 DE JULIO 2026]"
   },
@@ -1513,7 +1513,7 @@
     "tz": "GMT-6",
     "sis": "EIN / PE Ingenio",
     "det": "EIN / PE Ingenio",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento EIN",
     "not": "Agrupado de 1 correo(s) de invitacion/RSVP."
   },
@@ -1524,7 +1524,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "Evidencia Ventana PEI 21 Julio 2026",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Evidencia Ventana PEI 21 Julio 2026",
     "not": "Fecha tomada del asunto del correo."
   },
@@ -1557,7 +1557,7 @@
     "tz": "GMT-6",
     "sis": "Otros",
     "det": "PrimeRead licenciamiento (CFE Bajio)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Plan de trabajo y solicitud de ventana lic. PrimeRead",
     "not": "Verificado via get_thread: solicitud de ventana propuesta para lunes 10 de agosto 9-11am para dejar en ceros licencia de Bajio previo a unificacion de licencias PrimeRead."
   },
@@ -1579,7 +1579,7 @@
     "tz": "GMT-6",
     "sis": "ERT / El Retiro",
     "det": "ERT (Grupo Mexico - CFE Sureste)",
-    "est": "pendiente",
+    "est": "confirmada",
     "tit": "Ventana de mantenimiento ERT",
     "not": "Verificado via get_thread: invitacion original de CFE (alvaro.jacinto@cfe.mx) para lunes 17 ago 2026 9:00-12:00 (UTC-06:00), reenviada por Grupo Mexico y NXTVIEW."
   },
@@ -1601,7 +1601,7 @@
     "tz": null,
     "sis": "Naturgy",
     "det": "Servidor FEBH (Naturgy / Global Power Generation, CFE Sureste)",
-    "est": "desconocido",
+    "est": "confirmada",
     "tit": "Reporte de actividades en ventana con CFE Sureste. Servidor FEBH.",
     "not": "Reporte mensual de la ventana que CFE Sureste otorga via Teams para el servidor de FEBH. El adjunto se llama 'Informe ventana Jun 2026.pdf', por lo que la ventana reportada probablemente ocurrio en junio 2026, pero el cuerpo no especifica dia ni hora exactos. Se registra la fecha de envio del reporte (23-jul-2026) como referencia."
   },

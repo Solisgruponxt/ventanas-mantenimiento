@@ -276,10 +276,6 @@
     gap: 4px;
   }
   .badge.confirmada { background: var(--good-bg); color: var(--good); }
-  .badge.tentativa { background: var(--warning-bg); color: var(--warning); }
-  .badge.pendiente { background: var(--muted-badge-bg); color: var(--muted-badge); }
-  .badge.cancelada { background: var(--critical-bg); color: var(--critical); }
-  .badge.desconocido { background: var(--muted-badge-bg); color: var(--muted-badge); }
   .event-time { font-size: 0.78rem; color: var(--text-secondary); }
   .event-notes {
     font-size: 0.8rem;
@@ -330,10 +326,6 @@
     cursor: default;
   }
   .cal-chip-confirmada { background: var(--good-bg); }
-  .cal-chip-tentativa { background: var(--warning-bg); }
-  .cal-chip-pendiente { background: var(--muted-badge-bg); }
-  .cal-chip-cancelada { background: var(--critical-bg); text-decoration: line-through; }
-  .cal-chip-desconocido { background: var(--muted-badge-bg); }
   .cal-chip-more { font-style: italic; font-weight: 400; color: var(--text-muted); background: transparent; padding: 1px 4px; }
 
   @media (max-width: 640px) {
@@ -376,10 +368,6 @@
       <button type="button">Permisionario ▾</button>
       <div class="dropdown-panel" id="panelSistema"></div>
     </div>
-    <div class="dropdown" id="ddEstado">
-      <button type="button">Estado ▾</button>
-      <div class="dropdown-panel" id="panelEstado"></div>
-    </div>
     <div class="dropdown" id="ddAnio">
       <button type="button">Año ▾</button>
       <div class="dropdown-panel" id="panelAnio"></div>
@@ -403,7 +391,6 @@ const DIAS_SEMANA = ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'];
 const state = {
   search: '',
   sistemas: new Set(),
-  estados: new Set(),
   anios: new Set(),
   proximaIndex: 0,
   calMonth: { year: new Date().getFullYear(), month: new Date().getMonth() },
@@ -554,7 +541,6 @@ function setupDropdowns() {
 
 function matchesFilters(ev) {
   if (state.sistemas.size && !state.sistemas.has(ev.sis)) return false;
-  if (state.estados.size && !state.estados.has(ev.est)) return false;
   if (state.anios.size && !state.anios.has(ev.f.slice(0,4))) return false;
   if (state.search) {
     const q = state.search.toLowerCase();
@@ -685,7 +671,6 @@ function render() {
 
 function init() {
   const sistemas = [...new Set(DATA.map(e => e.sis))].sort();
-  const estados = ['confirmada','tentativa','pendiente','cancelada','desconocido'];
   const anios = [...new Set(DATA.map(e => e.f.slice(0,4)))].sort((a,b) => b.localeCompare(a));
 
   const sortedAll = [...DATA].sort((a,b) => a.f.localeCompare(b.f));
@@ -701,7 +686,6 @@ function init() {
   }
 
   buildFilterPanel('panelSistema', sistemas, state.sistemas);
-  buildFilterPanel('panelEstado', estados, state.estados, estadoLabel);
   buildFilterPanel('panelAnio', anios, state.anios);
 
   setupDropdowns();
@@ -724,7 +708,6 @@ function init() {
   document.getElementById('clearFilters').addEventListener('click', () => {
     state.search = '';
     state.sistemas.clear();
-    state.estados.clear();
     state.anios.clear();
     document.getElementById('searchBox').value = '';
     document.querySelectorAll('.dropdown-panel input[type=checkbox]').forEach(cb => cb.checked = false);
