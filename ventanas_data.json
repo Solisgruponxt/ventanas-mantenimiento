@@ -1626,5 +1626,16 @@
     "est": "confirmada",
     "tit": "ENERGIAS LIMPIAS II VENTANA MANTENIMIENTO CFE",
     "not": "Verificado via get_thread: reporte de resultados de la ventana de mantenimiento (adjunto 'Ventana de Tiempo 17 Junio 2026.pdf'), enviado originalmente por Joselyn Cruz el 18 de junio de 2026 y reenviado por Sofia Ibarrola el 23 de junio. Se revisaron 37 sitios: 23 (62%) con descarga de perfiles al dia y operando correctamente, 8 pendientes de alta en Prime, 2 con medidor sin comunicacion, 1 con password invalido, 2 con horario incorrecto en el medidor. Ventana distinta a la solicitud tentativa del 24 de junio 2026 (hilo relacionado 19ef6f371835bf24, que finalmente no fue autorizada por CFE)."
+  },
+  {
+    "f": "2026-08-14",
+    "hi": "13:23",
+    "hf": null,
+    "tz": "GMT-6",
+    "sis": "A3T",
+    "det": "A3T",
+    "est": "confirmada",
+    "tit": "Ventana de mantenimiento - A3T",
+    "not": "prueba [Solicitado por juan desde el dashboard]"
   }
 ]
