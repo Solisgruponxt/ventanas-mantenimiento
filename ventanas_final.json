@@ -2558,5 +2558,20 @@
     ],
     "notas": "Verificado via get_thread: reporte de resultados de la ventana de mantenimiento (adjunto 'Ventana de Tiempo 17 Junio 2026.pdf'), enviado originalmente por Joselyn Cruz el 18 de junio de 2026 y reenviado por Sofia Ibarrola el 23 de junio. Se revisaron 37 sitios: 23 (62%) con descarga de perfiles al dia y operando correctamente, 8 pendientes de alta en Prime, 2 con medidor sin comunicacion, 1 con password invalido, 2 con horario incorrecto en el medidor. Ventana distinta a la solicitud tentativa del 24 de junio 2026 (hilo relacionado 19ef6f371835bf24, que finalmente no fue autorizada por CFE).",
     "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "Ventana de mantenimiento - A3T",
+    "fecha": "2026-08-14",
+    "hora_inicio": "13:23",
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "A3T",
+    "estado": "confirmada",
+    "tipo": "solicitud_manual_dashboard",
+    "organizador_o_remitente": "juan",
+    "liga_reunion": null,
+    "thread_ids": [],
+    "notas": "prueba [Solicitado por juan desde el dashboard]",
+    "sistema_tag": "A3T"
   }
 ]
