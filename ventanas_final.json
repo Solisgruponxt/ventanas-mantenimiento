@@ -1412,9 +1412,10 @@
     "organizador_o_remitente": "jsolis@nxtview.com",
     "liga_reunion": null,
     "thread_ids": [
-      "19ac1e087f367f77"
+      "19ac1e087f367f77",
+      "19b47a9ecb867950"
     ],
-    "notas": "Solicitud (26-nov-2025) propone fechas '9 y 10 de Diciembre 2025' para mantenimiento presencial, con horario a definir por CFE. CFE responde el 3-dic-2025 'Confirmo fecha' sin especificar cuál de los dos días ni la hora. Fecha registrada como el primer día propuesto (9-dic); podría extenderse al 10-dic.",
+    "notas": "Solicitud (26-nov-2025) propone fechas '9 y 10 de Diciembre 2025' para mantenimiento presencial, con horario a definir por CFE. CFE responde el 3-dic-2025 'Confirmo fecha' sin especificar cuál de los dos días ni la hora. Fecha registrada como el primer día propuesto (9-dic); podría extenderse al 10-dic. [Consolidado con reporte final 'Mantenimiento Server EGU' enviado 22-dic-2025 (adjunto 'Mantenimiento Servidor EGU Diciembre 2025.pdf'), confirmando ejecución del mantenimiento a nivel hardware y software.]",
     "sistema_tag": "EGU / Eólica del Golfo"
   },
   {
@@ -2276,9 +2277,10 @@
     "organizador_o_remitente": "Juan Carlos Solis",
     "liga_reunion": null,
     "thread_ids": [
-      "19f1663467f1e09c"
+      "19f1663467f1e09c",
+      "19f19f5612011a03"
     ],
-    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP.",
+    "notas": "Agrupado de 1 correo(s) de invitacion/RSVP. [Consolidado con notas automáticas de Gemini de la misma reunión, 30-jun-2026.]",
     "sistema_tag": "AT&T / Energías Limpias"
   },
   {
@@ -2490,23 +2492,6 @@
     ],
     "notas": "Verificado via get_thread: invitacion original de CFE (alvaro.jacinto@cfe.mx) para lunes 17 ago 2026 9:00-12:00 (UTC-06:00), reenviada por Grupo Mexico y NXTVIEW.",
     "sistema_tag": "ERT / El Retiro"
-  },
-  {
-    "titulo": "Fw: Ventana de mantenimiento EDF",
-    "fecha": "2026-08-14",
-    "hora_inicio": "09:00",
-    "hora_fin": "12:00",
-    "timezone": null,
-    "sistema_o_proyecto": "EDF",
-    "estado": "confirmada",
-    "tipo": "correo_reenviado",
-    "organizador_o_remitente": "huberto.tobias@edf-re.com",
-    "liga_reunion": null,
-    "thread_ids": [
-      "19ff6d34523d04a5"
-    ],
-    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) reenviada por EDF: 'Cuando: viernes, 14 de agosto de 2026 09:00-12:00.' Reunion de Microsoft Teams. No se especifica timezone explicitamente en el correo (asumido horario de Mexico).",
-    "sistema_tag": "EDF"
   },
   {
     "titulo": "Reporte de actividades en ventana con CFE Sureste. Servidor FEBH.",
