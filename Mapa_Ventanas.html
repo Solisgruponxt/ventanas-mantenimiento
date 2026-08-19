@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Ventanas de Mantenimiento Medición — Línea de Tiempo</title>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <style>
   :root {
     color-scheme: light;
@@ -95,13 +96,42 @@
   .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 80px; }
 
   header.top { margin-bottom: 20px; }
-  header.top .top-brand { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 4px; }
+  header.top .top-brand { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 4px; flex-wrap: wrap; }
+  header.top .title-group { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
   header.top .brand-logo { height: 84px; width: auto; flex: 0 0 auto; }
   header.top h1 { font-size: 1.5rem; margin: 0; }
   header.top p { margin: 0; color: var(--text-secondary); font-size: 0.9rem; }
 
+  .btn-gradient-3d {
+    flex: 0 0 auto;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-family: inherit;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(180deg, #6db4f8 0%, #2a78d6 55%, #1c5cab 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.5),
+      inset 0 -3px 6px rgba(0,0,0,0.2),
+      0 4px 10px rgba(28,92,171,0.45),
+      0 6px 0 #164a8a;
+    transition: transform 0.08s ease, box-shadow 0.08s ease, filter 0.08s ease;
+  }
+  .btn-gradient-3d:hover { filter: brightness(1.08); }
+  .btn-gradient-3d:active {
+    transform: translateY(4px);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,0.5),
+      inset 0 -3px 6px rgba(0,0,0,0.2),
+      0 2px 4px rgba(28,92,171,0.45);
+  }
+
   @media (max-width: 640px) {
     header.top .brand-logo { height: 48px; }
+    header.top .top-brand { justify-content: flex-start; }
   }
 
   .kpi-row {
@@ -328,6 +358,54 @@
   .cal-chip-confirmada { background: var(--good-bg); }
   .cal-chip-more { font-style: italic; font-weight: 400; color: var(--text-muted); background: transparent; padding: 1px 4px; }
 
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    padding: 16px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 420px;
+    width: 100%;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+  }
+  .modal-card h3 { margin: 0 0 14px; font-size: 1.05rem; }
+  .modal-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+  }
+  .modal-field select, .modal-field input, .modal-field textarea {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    font-family: inherit;
+    resize: vertical;
+  }
+  .modal-hint { font-size: 0.76rem; color: var(--text-muted); margin: 0 0 14px; }
+  .modal-actions { display: flex; justify-content: flex-end; gap: 8px; }
+  .modal-primary { background: var(--seq-450); color: #fff; border-color: var(--seq-450); }
+  .modal-primary:hover { background: var(--seq-550); }
+  .detail-row { font-size: 0.85rem; margin-bottom: 6px; color: var(--text-primary); }
+  .detail-label { font-weight: 600; color: var(--text-secondary); margin-right: 4px; }
+  .detail-notas-label { font-weight: 600; color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 4px; }
+  .detail-notas { font-size: 0.85rem; color: var(--text-secondary); white-space: pre-wrap; margin: 0 0 16px; }
+
   @media (max-width: 640px) {
     .kpi-row { grid-template-columns: repeat(2, 1fr); }
     .cal-cell { min-height: 48px; }
@@ -339,10 +417,13 @@
 <div class="wrap">
   <header class="top">
     <div class="top-brand">
-      <h1>Ventanas de Mantenimiento Medición</h1>
+      <div class="title-group">
+        <h1>Ventanas de Mantenimiento Medición</h1>
+        <p>Línea de tiempo de ventanas de mantenimiento a servidores, extraídas de jsolis@nxtview.com</p>
+        <button type="button" class="btn-gradient-3d" id="requestWindowBtn">➕ Solicitar ventana</button>
+      </div>
       <img src="nxtview-logo.png" alt="NXT View" class="brand-logo">
     </div>
-    <p>Línea de tiempo de ventanas de mantenimiento a servidores, extraídas de jsolis@nxtview.com</p>
   </header>
 
   <div class="kpi-row" id="kpiRow"></div>
@@ -379,6 +460,47 @@
 
   <div id="timeline"></div>
   <div class="empty-state" id="emptyState" style="display:none;">No hay ventanas que coincidan con los filtros.</div>
+</div>
+
+<div class="modal-overlay" id="requestModalOverlay">
+  <div class="modal-card">
+    <h3>Solicitar nueva ventana de mantenimiento</h3>
+    <label class="modal-field">Quien solicita
+      <input type="text" id="reqQuien" placeholder="Tu nombre">
+    </label>
+    <label class="modal-field">Permisionario
+      <select id="reqPermisionario"></select>
+    </label>
+    <label class="modal-field">Fecha
+      <input type="date" id="reqFecha">
+    </label>
+    <label class="modal-field">Hora (formato 24 hrs)
+      <input type="time" id="reqHora" step="60">
+    </label>
+    <label class="modal-field">Motivo de la ventana
+      <textarea id="reqMotivo" rows="3" placeholder="Describe el motivo de la ventana..."></textarea>
+    </label>
+    <p class="modal-hint">Se registra de inmediato en el calendario para todos, y se avisa por correo a jsolis@nxtview.com y mnajera@gruponxt.com.</p>
+    <div class="modal-actions">
+      <button type="button" class="clear-btn" id="reqCancel">Cancelar</button>
+      <button type="button" class="clear-btn modal-primary" id="reqSubmit">Enviar solicitud</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="eventDetailOverlay">
+  <div class="modal-card">
+    <h3 id="detailTitle"></h3>
+    <div class="detail-row"><span class="detail-label">Permisionario:</span> <span id="detailPermisionario"></span></div>
+    <div class="detail-row"><span class="detail-label">Fecha:</span> <span id="detailFecha"></span></div>
+    <div class="detail-row"><span class="detail-label">Hora:</span> <span id="detailHora"></span></div>
+    <div class="detail-row"><span class="detail-label">Estado:</span> <span id="detailEstado"></span></div>
+    <div class="detail-row detail-notas-label">Motivo / notas:</div>
+    <p class="detail-notas" id="detailNotas"></p>
+    <div class="modal-actions">
+      <button type="button" class="clear-btn" id="detailClose">Cerrar</button>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -2010,8 +2132,26 @@ const DATA = [
     "est": "confirmada",
     "tit": "Ventana de mantenimiento - A3T",
     "not": "prueba [Solicitado por juan desde el dashboard]"
+  },
+  {
+    "f": "2026-08-18",
+    "hi": null,
+    "hf": null,
+    "tz": null,
+    "sis": "AT&T / Energías Limpias",
+    "det": "AT&T / Energias Limpias II (CFE)",
+    "est": "confirmada",
+    "tit": "ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO CFE **solicitud ventana **",
+    "not": "Solicitud enviada el 14-ago-2026 proponiendo 'martes 18 de agosto' para la ventana de mantenimiento CFE de AT&T/Energias Limpias II. Confirmado por Sofia Ibarrola la mañana del 18-ago-2026: 'CFE nos envio los accesos hoy por la mañana'. No se especifica hora exacta ni reporte de resultados en el hilo."
   }
-];
+]
+;
+
+const EMAILJS_SERVICE_ID = 'service_apxw7km';
+const EMAILJS_TEMPLATE_ID = 'template_ah12mhq';
+emailjs.init({ publicKey: 'gTQ9iBgjaPNxAsLNs' });
+
+const WORKER_URL = 'https://ventanas-sync-worker.jsolis-3aa.workers.dev/';
 
 const MESES = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
 const MESES_LARGO = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
@@ -2215,19 +2355,29 @@ function buildCalendar(filtered) {
     const events = (byDay[day] || []).sort((a,b) => (a.hi||'').localeCompare(b.hi||''));
     const cell = document.createElement('div');
     cell.className = 'cal-cell' + (dateStr === todayStr ? ' cal-today' : '');
-    let inner = '<div class="cal-daynum">'+day+'</div>';
+    const dayNum = document.createElement('div');
+    dayNum.className = 'cal-daynum';
+    dayNum.textContent = day;
+    cell.appendChild(dayNum);
     if (events.length) {
-      inner += '<div class="cal-events">';
+      const evWrap = document.createElement('div');
+      evWrap.className = 'cal-events';
       events.slice(0,3).forEach(ev => {
-        const tip = ev.sis + ' — ' + estadoLabel(ev.est) + (ev.hi ? ' · ' + ev.hi : '') + (ev.hf ? '–'+ev.hf : '');
-        inner += '<div class="cal-chip cal-chip-'+ev.est+'" title="'+escapeHtml(tip)+'">'+escapeHtml(ev.sis)+'</div>';
+        const chip = document.createElement('div');
+        chip.className = 'cal-chip cal-chip-' + ev.est;
+        chip.textContent = ev.sis;
+        chip.title = 'Clic para ver el detalle completo';
+        chip.addEventListener('click', () => openEventDetail(ev));
+        evWrap.appendChild(chip);
       });
       if (events.length > 3) {
-        inner += '<div class="cal-chip cal-chip-more">+'+(events.length-3)+' más</div>';
+        const more = document.createElement('div');
+        more.className = 'cal-chip cal-chip-more';
+        more.textContent = '+' + (events.length - 3) + ' más';
+        evWrap.appendChild(more);
       }
-      inner += '</div>';
+      cell.appendChild(evWrap);
     }
-    cell.innerHTML = inner;
     grid.appendChild(cell);
   }
 }
@@ -2350,7 +2500,122 @@ function init() {
     window.location.href = 'ventanas-sync:run';
   });
 
+  setupRequestModal();
+  setupEventDetailModal();
+
   render();
+}
+
+function openEventDetail(ev) {
+  const overlay = document.getElementById('eventDetailOverlay');
+  const d = parseFecha(ev.f);
+  document.getElementById('detailTitle').textContent = ev.tit || (ev.sis + ' — ' + d.toLocaleDateString('es-MX'));
+  document.getElementById('detailPermisionario').textContent = ev.sis + (ev.det && ev.det !== ev.sis ? ' (' + ev.det + ')' : '');
+  document.getElementById('detailFecha').textContent = d.toLocaleDateString('es-MX', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+  document.getElementById('detailHora').textContent = ev.hi ? (ev.hi + (ev.hf ? ' – ' + ev.hf : '')) : 'Sin hora especificada';
+  document.getElementById('detailEstado').textContent = estadoLabel(ev.est);
+  document.getElementById('detailNotas').textContent = ev.not || 'Sin notas';
+  overlay.classList.add('open');
+}
+
+function setupEventDetailModal() {
+  const overlay = document.getElementById('eventDetailOverlay');
+  document.getElementById('detailClose').addEventListener('click', () => overlay.classList.remove('open'));
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) overlay.classList.remove('open'); });
+}
+
+function setupRequestModal() {
+  const overlay = document.getElementById('requestModalOverlay');
+  const quienInput = document.getElementById('reqQuien');
+  const permSelect = document.getElementById('reqPermisionario');
+  const fechaInput = document.getElementById('reqFecha');
+  const horaInput = document.getElementById('reqHora');
+  const motivoInput = document.getElementById('reqMotivo');
+
+  function openModal() {
+    const sistemas = [...new Set(DATA.map(e => e.sis))].sort();
+    permSelect.innerHTML = '';
+    sistemas.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s;
+      opt.textContent = s;
+      permSelect.appendChild(opt);
+    });
+    const otro = document.createElement('option');
+    otro.value = '__otro__';
+    otro.textContent = 'Otro (especificar en el motivo)';
+    permSelect.appendChild(otro);
+    quienInput.value = '';
+    fechaInput.value = '';
+    horaInput.value = '';
+    motivoInput.value = '';
+    overlay.classList.add('open');
+  }
+  function closeModal() {
+    overlay.classList.remove('open');
+  }
+
+  document.getElementById('requestWindowBtn').addEventListener('click', openModal);
+  document.getElementById('reqCancel').addEventListener('click', closeModal);
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
+
+  const submitBtn = document.getElementById('reqSubmit');
+  submitBtn.addEventListener('click', () => {
+    const quienSolicita = quienInput.value.trim();
+    const permisionario = permSelect.value === '__otro__' ? '(ver motivo)' : permSelect.value;
+    const fecha = fechaInput.value;
+    const hora = horaInput.value;
+    const motivo = motivoInput.value.trim();
+    if (!quienSolicita || !fecha || !hora || !motivo) {
+      alert('Completa quien solicita, fecha, hora y motivo antes de enviar.');
+      return;
+    }
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Publicando…';
+
+    fetch(WORKER_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        quien_solicita: quienSolicita,
+        permisionario: permisionario,
+        fecha: fecha,
+        hora: hora,
+        motivo: motivo,
+      }),
+    }).then(res => {
+      return res.json().catch(() => ({})).then(data => {
+        if (!res.ok) throw new Error(data.error || ('worker respondio ' + res.status));
+        return data;
+      });
+    }).then(() => {
+      DATA.push({
+        f: fecha, hi: hora, hf: null, tz: 'GMT-6',
+        sis: permisionario, det: permisionario, est: 'confirmada',
+        tit: 'Ventana de mantenimiento - ' + permisionario,
+        not: motivo + ' [Solicitado por ' + quienSolicita + ' desde el dashboard]',
+      });
+      render();
+      closeModal();
+      const status = document.getElementById('syncStatus');
+      status.style.display = 'inline';
+      status.textContent = 'Ventana publicada. Ya la ves aqui; el resto de visitantes la vera en ~1 minuto al recargar.';
+
+      emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+        quien_solicita: quienSolicita,
+        permisionario: permisionario,
+        fecha: fecha,
+        hora: hora,
+        motivo: motivo,
+      }).catch(err => console.error('Aviso por correo fallo (no crítico):', err));
+    }).catch((err) => {
+      console.error(err);
+      alert('No se pudo publicar la ventana: ' + err.message);
+    }).finally(() => {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Enviar solicitud';
+    });
+  });
 }
 
 init();

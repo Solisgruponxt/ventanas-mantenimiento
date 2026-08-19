@@ -1626,5 +1626,16 @@
     "est": "confirmada",
     "tit": "Ventana de mantenimiento - A3T",
     "not": "prueba [Solicitado por juan desde el dashboard]"
+  },
+  {
+    "f": "2026-08-18",
+    "hi": null,
+    "hf": null,
+    "tz": null,
+    "sis": "AT&T / Energías Limpias",
+    "det": "AT&T / Energias Limpias II (CFE)",
+    "est": "confirmada",
+    "tit": "ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO CFE **solicitud ventana **",
+    "not": "Solicitud enviada el 14-ago-2026 proponiendo 'martes 18 de agosto' para la ventana de mantenimiento CFE de AT&T/Energias Limpias II. Confirmado por Sofia Ibarrola la mañana del 18-ago-2026: 'CFE nos envio los accesos hoy por la mañana'. No se especifica hora exacta ni reporte de resultados en el hilo."
   }
 ]

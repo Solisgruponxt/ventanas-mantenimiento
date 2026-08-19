@@ -2558,5 +2558,22 @@
     "thread_ids": [],
     "notas": "prueba [Solicitado por juan desde el dashboard]",
     "sistema_tag": "A3T"
+  },
+  {
+    "titulo": "ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO CFE **solicitud ventana **",
+    "fecha": "2026-08-18",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "AT&T / Energias Limpias II (CFE)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jcruz@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a015bb3240e865c"
+    ],
+    "notas": "Solicitud enviada el 14-ago-2026 proponiendo 'martes 18 de agosto' para la ventana de mantenimiento CFE de AT&T/Energias Limpias II. Confirmado por Sofia Ibarrola la mañana del 18-ago-2026: 'CFE nos envio los accesos hoy por la mañana'. No se especifica hora exacta ni reporte de resultados en el hilo.",
+    "sistema_tag": "AT&T / Energías Limpias"
   }
 ]

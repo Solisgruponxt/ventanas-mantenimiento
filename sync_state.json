@@ -1,4 +1,4 @@
 {
   "last_event_fecha": "2026-08-24",
-  "last_sync_note": "Sync automatico 2026-08-17: 0 ventanas nuevas; se elimino ventana EDF 14-ago-2026 (cancelada, confirmado por correo de CFE) y se consolidaron 2 correos de seguimiento en eventos existentes (EGU dic-2025, AT&T ventana CFE 30-jun-2026)"
+  "last_sync_note": "Sync automatico 2026-08-19: +1 ventana nueva (AT&T / Energias Limpias II, CFE, 2026-08-18, confirmada por envio de accesos CFE la mañana del evento). Se revisaron ~260 hilos de Gmail desde 2026-01-01; el resto ya estaba en el dataset o fue descartado (solicitudes manuales del dashboard, ventana EDF 14-ago-2026 cancelada por CFE, correos sin fecha confirmable o no relacionados)."
 }
