@@ -2522,9 +2522,11 @@
     "organizador_o_remitente": "mnajera@powerview.mx",
     "liga_reunion": null,
     "thread_ids": [
-      "19ffbfa9cd5aa50e"
+      "19ffbfa9cd5aa50e",
+      "1a035ba953be6772",
+      "1a034b7ce5640767"
     ],
-    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) reenviada por Ricardo Morales (Global Power Generation) y Miguel Najera: 'Cuando: lunes, 24 de agosto de 2026 09:00 a.m.-12:00 p.m. (UTC-06:00)'. Equipo Nxt View debe programarse de 9:00 a 10:00 horas; equipo Tesren a partir de las 10:00 horas.",
+    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) reenviada por Ricardo Morales (Global Power Generation) y Miguel Najera: 'Cuando: lunes, 24 de agosto de 2026 09:00 a.m.-12:00 p.m. (UTC-06:00)'. Equipo Nxt View debe programarse de 9:00 a 10:00 horas; equipo Tesren a partir de las 10:00 horas. Reportes de resultados enviados el mismo dia (24-ago-2026) por jsolis y Miguel Angel Rodriguez confirmando la ejecucion de la ventana. [Consolidado de 3 correos relacionados: Fwd: Ventana de mantenimiento BII Hioxo; Ventana Naturgy 24 Agosto 2026; Reporte de Ventana Mtto]",
     "sistema_tag": "BII Hioxo"
   },
   {
@@ -2571,9 +2573,28 @@
     "organizador_o_remitente": "jcruz@gruponxt.com",
     "liga_reunion": null,
     "thread_ids": [
-      "1a015bb3240e865c"
+      "1a015bb3240e865c",
+      "1a01b037de17a155"
     ],
-    "notas": "Solicitud enviada el 14-ago-2026 proponiendo 'martes 18 de agosto' para la ventana de mantenimiento CFE de AT&T/Energias Limpias II. Confirmado por Sofia Ibarrola la mañana del 18-ago-2026: 'CFE nos envio los accesos hoy por la mañana'. No se especifica hora exacta ni reporte de resultados en el hilo.",
+    "notas": "Solicitud enviada el 14-ago-2026 proponiendo 'martes 18 de agosto' para la ventana de mantenimiento CFE de AT&T/Energias Limpias II. Confirmado por Sofia Ibarrola la mañana del 18-ago-2026: 'CFE nos envio los accesos hoy por la mañana'. Reporte de resultados enviado 19-ago-2026 confirma ejecucion: 'resultados de la ventana de mantenimiento realizada el dia 18 de agosto'. [Consolidado de 2 correos relacionados: ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO CFE **solicitud ventana **; ENERGIAS LIMPIAS II REPORTE VENTANA MANTENIMIENTO DE CFE]",
     "sistema_tag": "AT&T / Energías Limpias"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2026-08-20",
+    "hora_inicio": "9:00 AM",
+    "hora_fin": "12:00 PM",
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EIN / PE Ingenio (Zuma Energía / CFE)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "mrodriguez@powerview.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a01fac8192bb374",
+      "1a02557068e2d3c2"
+    ],
+    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) reenviada por Juan Carlos Mendez (Zuma Energia) y Miguel Angel Rodriguez: 'Cuando: Jue 20/Ago/2026, de 9:00 AM a 12:00 PM'. Confirmado por reporte enviado 21-ago-2026 con adjunto 'Ventana de Tiempo 20 Agosto 26 PIngenio.pdf'. [Consolidado de 2 correos relacionados: Fwd: Ventana de mantenimiento EIN; Reporte de Ventana de Mantenimiento PEIngenio]",
+    "sistema_tag": "EIN / PE Ingenio"
   }
 ]
