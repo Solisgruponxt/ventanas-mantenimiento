@@ -1,4 +1,4 @@
 {
-  "last_event_fecha": "2026-08-24",
-  "last_sync_note": "Sync automatico 2026-08-24: +1 ventana nueva (EIN / PE Ingenio, Zuma Energia/CFE, 2026-08-20, confirmada por invitacion CFE y reporte de resultados). Se consolidaron correos de reporte adicionales en 2 ventanas ya existentes (AT&T/Energias Limpias II 2026-08-18 y BII Hioxo/Naturgy 2026-08-24) sin agregar eventos nuevos. Se revisaron hilos de Gmail desde 2026-01-01; el resto ya estaba en el dataset o fue descartado (solicitudes manuales del dashboard, ventana EDF 14-ago-2026 cancelada por CFE, correos sin fecha confirmable o no relacionados)."
+  "last_event_fecha": "2026-09-28",
+  "last_sync_note": "Sync automatico 2026-08-28: +2 ventanas nuevas (EDF 'Ventana de Mtto BSD', 2026-08-28, confirmada por invitacion CFE con liga de Teams; EDF puntos de carga, 2026-09-28, confirmada por CFE via correo de EDF-RE). Se consolido un correo de solicitud de firma de reporte en la ventana existente BII Hioxo/Naturgy 2026-08-24 (sin crear evento nuevo). Se revisaron hilos de Gmail desde 2026-01-01; el resto ya estaba en el dataset o fue descartado (solicitudes manuales del dashboard A3T 14-ago-2026, ventana EDF 14-ago-2026 cancelada por CFE, auto-respuesta OOO, correos sin fecha confirmable o no relacionados)."
 }
