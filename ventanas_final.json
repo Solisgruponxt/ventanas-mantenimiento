@@ -2631,5 +2631,39 @@
     ],
     "notas": "CFE otorgo ventana de mantenimiento para revisar puntos de carga el viernes 28 de septiembre de 2026, en horario de 9 a 11 am. Correo original enviado 26-ago-2026, reenviado por jsolis el 27-ago-2026.",
     "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "Nueva ventana de mantenimiento: EGU",
+    "fecha": "2026-09-06",
+    "hora_inicio": "14:46",
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "EGU / Eólica del Golfo",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jsolis@nxtview.com",
+    "liga_reunion": "teams",
+    "thread_ids": [
+      "1a07d9fd88523827"
+    ],
+    "notas": "Notificacion automatica enviada por jsolis: 'Finalidad de la ventana: Revision de cargas. Duracion: 1 hora(s). Enlace de acceso: teams. Estatus: Creado en todos los calendarios'.",
+    "sistema_tag": "EGU / Eólica del Golfo"
+  },
+  {
+    "titulo": "Ventana de mantenimiento ERT",
+    "fecha": "2026-09-23",
+    "hora_inicio": "9:00 AM",
+    "hora_fin": "12:00 PM",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "ERT / Grupo Mexico (CFE)",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "alvaro.jacinto@cfe.mx",
+    "liga_reunion": "https://teams.microsoft.com/meet/213495871141347?p=HN5SSIN089ZPCyZl",
+    "thread_ids": [
+      "1a07d01d8c40a066"
+    ],
+    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) enviada 4-sep-2026, reenviada por Mario Gordillo (gminfra) a Humberto Jaramillo el 7-sep-2026: 'Cuando: Wednesday, September 23, 2026 9:00 AM-12:00 PM (UTC-06:00)'. Sin rechazo en el hilo.",
+    "sistema_tag": "ERT / El Retiro"
   }
 ]
