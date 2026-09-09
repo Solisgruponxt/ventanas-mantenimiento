@@ -2665,5 +2665,22 @@
     ],
     "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) enviada 4-sep-2026, reenviada por Mario Gordillo (gminfra) a Humberto Jaramillo el 7-sep-2026: 'Cuando: Wednesday, September 23, 2026 9:00 AM-12:00 PM (UTC-06:00)'. Sin rechazo en el hilo.",
     "sistema_tag": "ERT / El Retiro"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EIN",
+    "fecha": "2026-09-15",
+    "hora_inicio": "9:00 AM",
+    "hora_fin": "12:00 PM",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "PE Ingenio (EIN)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "alvaro.jacinto@cfe.mx",
+    "liga_reunion": "https://teams.microsoft.com/meet/279982893146034?p=luTUec5fbKlMajcMYs",
+    "thread_ids": [
+      "1a081ba2cfa5bc21"
+    ],
+    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) reenviada por Juan Carlos Mendez (Zuma Energia) el 8-sep-2026: 'Cuando: Mar 15/Sep/2026, de 9:00 AM a 12:00 PM'. Sin rechazo en el hilo.",
+    "sistema_tag": "EIN / PE Ingenio"
   }
 ]
