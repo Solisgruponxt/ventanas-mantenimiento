@@ -2682,5 +2682,22 @@
     ],
     "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx) reenviada por Juan Carlos Mendez (Zuma Energia) el 8-sep-2026: 'Cuando: Mar 15/Sep/2026, de 9:00 AM a 12:00 PM'. Sin rechazo en el hilo.",
     "sistema_tag": "EIN / PE Ingenio"
+  },
+  {
+    "titulo": "Revision migracion PME y PRIME (Grupo Dragon MTY)",
+    "fecha": "2026-09-14",
+    "hora_inicio": "15:30",
+    "hora_fin": "16:30",
+    "timezone": "America/Mexico_City (CST, UTC-6)",
+    "sistema_o_proyecto": "Grupo Dragon (servidor MTY / Eolica los Altos)",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "mrodriguez@powerview.mx",
+    "liga_reunion": "https://meet.google.com/nxm-wzwf-jya",
+    "thread_ids": [
+      "1a0a1dfa0776e9ad"
+    ],
+    "notas": "Invitacion de Google Calendar 'Revision migracion PME y PRIME' organizada por Miguel Angel Rodriguez para lunes 14 sept 2026 3:30-4:30pm. Confirmada por respuesta de Julian Espinosa (Grupo Dragon) con reporte adjunto 'reporte_servidoresMTY_Sep26.pdf' de actividades realizadas al servidor de MTY.",
+    "sistema_tag": "Otros"
   }
 ]
