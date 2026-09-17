@@ -1413,9 +1413,10 @@
     "liga_reunion": null,
     "thread_ids": [
       "19ac1e087f367f77",
-      "19b47a9ecb867950"
+      "19b47a9ecb867950",
+      "19aefb3b9228d59e"
     ],
-    "notas": "Solicitud (26-nov-2025) propone fechas '9 y 10 de Diciembre 2025' para mantenimiento presencial, con horario a definir por CFE. CFE responde el 3-dic-2025 'Confirmo fecha' sin especificar cuál de los dos días ni la hora. Fecha registrada como el primer día propuesto (9-dic); podría extenderse al 10-dic. [Consolidado con reporte final 'Mantenimiento Server EGU' enviado 22-dic-2025 (adjunto 'Mantenimiento Servidor EGU Diciembre 2025.pdf'), confirmando ejecución del mantenimiento a nivel hardware y software.]",
+    "notas": "Solicitud (26-nov-2025) propone fechas '9 y 10 de Diciembre 2025' para mantenimiento presencial, con horario a definir por CFE. CFE responde el 3-dic-2025 'Confirmo fecha' sin especificar cuál de los dos días ni la hora. Fecha registrada como el primer día propuesto (9-dic); podría extenderse al 10-dic. [Consolidado con reporte final 'Mantenimiento Server EGU' enviado 22-dic-2025 (adjunto 'Mantenimiento Servidor EGU Diciembre 2025.pdf'), confirmando ejecución del mantenimiento a nivel hardware y software.] Adicionalmente, correo de solicitud de viaticos (5-dic-2025) confirma el viaje presencial de Juan Carlos Solis y Miguel Najera a Merida del 8 al 10 de diciembre de 2025 para 'trabajos de mantenimiento al Servidor fisico y software UDIS en CFE peninsular', con adjunto 'MERIDA EGU MTOSERVIDOR.zip' tras la ejecucion. [Consolidado adicional: hilo de viaticos PO32345]",
     "sistema_tag": "EGU / Eólica del Golfo"
   },
   {
@@ -2699,5 +2700,39 @@
     ],
     "notas": "Invitacion de Google Calendar 'Revision migracion PME y PRIME' organizada por Miguel Angel Rodriguez para lunes 14 sept 2026 3:30-4:30pm. Confirmada por respuesta de Julian Espinosa (Grupo Dragon) con reporte adjunto 'reporte_servidoresMTY_Sep26.pdf' de actividades realizadas al servidor de MTY.",
     "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "ELA - Ventana de Mantenimiento Remoto",
+    "fecha": "2026-09-17",
+    "hora_inicio": "10:00",
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "Eolica los Altos (ELA) / Grupo Dragon",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jose.acostah@gdragon.com.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a0a212e0a2623ab"
+    ],
+    "notas": "Solicitud de Grupo Dragon (14-sep-2026) para ventana de mantenimiento remoto en servidores de Eolica los Altos (revision de configuracion PME y pruebas de comunicacion, por migracion de servidores de Puebla a Monterrey). CFE (Jose Miguel Yanez Diaz) confirmo el jueves 17-sep-2026 a las 10:00 am, solicitando que se incluya a Olaf Pinon Medina (CFE) en la invitacion para apoyar con los movimientos.",
+    "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "PE Ingenio.- Solicitud de ventana de mantenimiento (Septiembre-2026)",
+    "fecha": "2026-09-25",
+    "hora_inicio": "09:00",
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "PE Ingenio (PRIME y PME) / Zuma Energia",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jmendez@zumaenergia.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a0594e225d4d6df"
+    ],
+    "notas": "Solicitud rutinaria mensual (31-ago-2026) de Zuma Energia a CFE para ventana de mantenimiento en el servidor de PE Ingenio el 25-septiembre-2026 a las 09:00: revision de espacio en disco y BD, revision de servicios en ambas virtuales (PRIME y PME), y pruebas de comunicacion con Walmart. Sigue el mismo patron de las ventanas mensuales EIN ya confirmadas en meses anteriores.",
+    "sistema_tag": "EIN / PE Ingenio"
   }
 ]
