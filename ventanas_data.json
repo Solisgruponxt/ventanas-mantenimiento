@@ -1757,6 +1757,28 @@
         "det":  "BII Hioxo (Naturgy / CFE Sureste)",
         "est":  "confirmada",
         "tit":  "Fwd: Ventana de mantenimiento BII",
-        "not":  "Invitacion original de CFE (alvaro.jacinto@cfe.mx, enviada 07-sep-2026): 'Cuando: Jue 24/09/2026 de 09:00 AM a 12:00 PM', reunion de Microsoft Teams. Reenviada por Ricardo Morales (Global Power Generation / Naturgy) el 23-sep-2026 y luego por Miguel Angel Rodriguez: el equipo Nxt View entra a las 9:00 y el equipo Tesren a las 10:00. Mismo patron que la ventana BII Hioxo del 24-ago-2026."
+        "not":  "Invitacion original de CFE (alvaro.jacinto@cfe.mx, enviada 07-sep-2026): 'Cuando: Jue 24/09/2026 de 09:00 AM a 12:00 PM', reunion de Microsoft Teams. Reenviada por Ricardo Morales (Global Power Generation / Naturgy) el 23-sep-2026 y luego por Miguel Angel Rodriguez: el equipo Nxt View entra a las 9:00 y el equipo Tesren a las 10:00. Mismo patron que la ventana BII Hioxo del 24-ago-2026. Reporte posterior 'Reporte de mto Naturgy' (mnajera@powerview.mx, 28-sep-2026, adjunto Naturgy_Revision_PrimeRead_Septiembre_2026.pdf) confirma ejecucion de la ventana del 24-sep. [Consolidado de 2 correos]"
+    },
+    {
+        "f":  "2026-09-23",
+        "hi":  null,
+        "hf":  null,
+        "tz":  null,
+        "sis":  "AT&T / Energías Limpias",
+        "det":  "AT&T / Energias Limpias II (Balam Fund) - CFE PrimeRead",
+        "est":  "confirmada",
+        "tit":  "ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO CFE 23.09.2026",
+        "not":  "Solicitud en hilo 'ENERGIAS LIMPIAS II VENTANA MANTENIMIENTO CFE SEPTIEMBRE 2026': Balam pidio ventana a mas tardar el 23-sep y Joselyn Cruz acordo solicitarla a CFE para el 23-sep. Reporte de resultados del 24-sep-2026 ('el dia de ayer se llevo a cabo la ventana de mantenimiento programada', adjunto 'VENTANA DE MANTENIMIENTO AT&T 23.09.2026.pdf'): 9 sitios TX PROPIO con 'Connect failed' desde servidor CFE y 4 sitios con desfase de fecha/hora; pendientes para proxima ventana. [Consolidado de 2 correos]"
+    },
+    {
+        "f":  "2026-09-25",
+        "hi":  "12:00",
+        "hf":  "12:10",
+        "tz":  "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+        "sis":  "Otros",
+        "det":  "Eolica Arriaga (EOA, Grupo Dragon) / CFE",
+        "est":  "confirmada",
+        "tit":  "Ventana EOA",
+        "not":  "Invitacion de CFE (Alvaro Jacinto): 'Cuando: viernes, 25 de septiembre de 2026 12:00 p. m.-12:10 p. m. (UTC-06:00)', reunion de Microsoft Teams. Reenviada por Fernando Garcia (Grupo Dragon): ventana breve de 10 minutos para depurar el disco duro. Seguimiento de la ventana EOA del 21-sep-2026."
     }
 ]

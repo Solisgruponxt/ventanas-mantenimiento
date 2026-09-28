@@ -2765,9 +2765,45 @@
     "organizador_o_remitente": "mrodriguez@gruponxt.com",
     "liga_reunion": null,
     "thread_ids": [
-      "1a0d072e4c66b31d"
+      "1a0d072e4c66b31d",
+      "1a0e92db7133c118"
     ],
-    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx, enviada 07-sep-2026): 'Cuando: Jue 24/09/2026 de 09:00 AM a 12:00 PM', reunion de Microsoft Teams. Reenviada por Ricardo Morales (Global Power Generation / Naturgy) el 23-sep-2026 y luego por Miguel Angel Rodriguez: el equipo Nxt View entra a las 9:00 y el equipo Tesren a las 10:00. Mismo patron que la ventana BII Hioxo del 24-ago-2026.",
+    "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx, enviada 07-sep-2026): 'Cuando: Jue 24/09/2026 de 09:00 AM a 12:00 PM', reunion de Microsoft Teams. Reenviada por Ricardo Morales (Global Power Generation / Naturgy) el 23-sep-2026 y luego por Miguel Angel Rodriguez: el equipo Nxt View entra a las 9:00 y el equipo Tesren a las 10:00. Mismo patron que la ventana BII Hioxo del 24-ago-2026. Reporte posterior 'Reporte de mto Naturgy' (mnajera@powerview.mx, 28-sep-2026, adjunto Naturgy_Revision_PrimeRead_Septiembre_2026.pdf) confirma ejecucion de la ventana del 24-sep. [Consolidado de 2 correos]",
     "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO CFE 23.09.2026",
+    "fecha": "2026-09-23",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": null,
+    "sistema_o_proyecto": "AT&T / Energias Limpias II (Balam Fund) - CFE PrimeRead",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jcruz@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a0d4c3efc4d12b2",
+      "1a0a0eb0909b6f3c"
+    ],
+    "notas": "Solicitud en hilo 'ENERGIAS LIMPIAS II VENTANA MANTENIMIENTO CFE SEPTIEMBRE 2026': Balam pidio ventana a mas tardar el 23-sep y Joselyn Cruz acordo solicitarla a CFE para el 23-sep. Reporte de resultados del 24-sep-2026 ('el dia de ayer se llevo a cabo la ventana de mantenimiento programada', adjunto 'VENTANA DE MANTENIMIENTO AT&T 23.09.2026.pdf'): 9 sitios TX PROPIO con 'Connect failed' desde servidor CFE y 4 sitios con desfase de fecha/hora; pendientes para proxima ventana. [Consolidado de 2 correos]",
+    "sistema_tag": "AT&T / Energías Limpias"
+  },
+  {
+    "titulo": "Ventana EOA",
+    "fecha": "2026-09-25",
+    "hora_inicio": "12:00",
+    "hora_fin": "12:10",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "Eolica Arriaga (EOA, Grupo Dragon) / CFE",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "alvaro.jacinto@cfe.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a0d935295655c7f"
+    ],
+    "notas": "Invitacion de CFE (Alvaro Jacinto): 'Cuando: viernes, 25 de septiembre de 2026 12:00 p. m.-12:10 p. m. (UTC-06:00)', reunion de Microsoft Teams. Reenviada por Fernando Garcia (Grupo Dragon): ventana breve de 10 minutos para depurar el disco duro. Seguimiento de la ventana EOA del 21-sep-2026.",
+    "sistema_tag": "Otros"
   }
 ]
