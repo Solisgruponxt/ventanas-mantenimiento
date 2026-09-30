@@ -2805,5 +2805,23 @@
     ],
     "notas": "Invitacion de CFE (Alvaro Jacinto): 'Cuando: viernes, 25 de septiembre de 2026 12:00 p. m.-12:10 p. m. (UTC-06:00)', reunion de Microsoft Teams. Reenviada por Fernando Garcia (Grupo Dragon): ventana breve de 10 minutos para depurar el disco duro. Seguimiento de la ventana EOA del 21-sep-2026.",
     "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "SOLICITUD VENTANA DE TIEMPO / Ventana de tiempo (Solario - Los Ramirez 1)",
+    "fecha": "2026-09-29",
+    "hora_inicio": "11:00",
+    "hora_fin": "11:45",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "Solario - Central Los Ramirez 1 (servidor 172.16.6.69) / CFE",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "alan.garciap@cfe.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a0edcd0dc69f28d",
+      "1a0eddbae3db96c7"
+    ],
+    "notas": "Solicitud de Celeste Lozano (Solario, 28-sep-2026) a CFE para ventana de tiempo para dar de alta 2 medidores ION de la Central Los Ramirez 1 en el servidor de Solario (172.16.6.69); duracion estimada ~45 min (hora_fin estimada). CFE (Alan Garcia) confirmo 'Hoy a las 11am' el 29-sep y envio invitacion de Teams. Durante la ventana Miguel Najera compartio evidencias de que no se llega a los medidores. [Consolidado de 2 correos]",
+    "sistema_tag": "Otros"
   }
 ]

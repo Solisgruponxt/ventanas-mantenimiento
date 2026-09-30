@@ -1,4 +1,4 @@
 {
-  "last_event_fecha": "2026-09-28",
-  "last_sync_note": "Sync automatico 2026-09-28: +2 ventanas nuevas. (1) AT&T / Energias Limpias II (Balam): ventana CFE ejecutada el 23-sep-2026 segun reporte de Joselyn Cruz del 24-sep (threads 1a0d4c3efc4d12b2 + 1a0a0eb0909b6f3c consolidados). (2) Eolica Arriaga (EOA, 'Otros'): ventana breve CFE 25-sep-2026 12:00-12:10 para depurar disco duro (thread 1a0d935295655c7f). Fusion: 'Reporte de mto Naturgy' (1a0e92db7133c118) agregado a BII Hioxo 24-sep. Descartados: 'Pendientes revision por errores detectados en ventana Septiembre BALAM' (1a0e875ee4c10169) es una reunion de seguimiento, no ventana; DSP (1a0b6204192c3018) sigue sin fecha; notificaciones del dashboard son avisos informativos."
+  "last_event_fecha": "2026-09-29",
+  "last_sync_note": "Sync automatico 2026-09-30: +1 ventana nueva. Solario - Central Los Ramirez 1 ('Otros'): ventana CFE 29-sep-2026 11:00 para alta de 2 medidores ION en servidor Solario (threads 1a0edcd0dc69f28d + 1a0eddbae3db96c7 consolidados; hora_fin 11:45 estimada por duracion ~45 min). Descartados: 'Pendientes revision por errores detectados en ventana Septiembre BALAM' (1a0e875ee4c10169) sigue siendo reunion de seguimiento/minuta, no ventana; 'Nueva ventana de mantenimiento: Naturgy' (1a0d085a4ef49b34) es notificacion del dashboard, ya reflejada; DSP (1a0b6204192c3018) sigue sin fecha."
 }
