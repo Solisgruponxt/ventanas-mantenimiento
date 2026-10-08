@@ -1791,5 +1791,27 @@
         "est":  "confirmada",
         "tit":  "SOLICITUD VENTANA DE TIEMPO / Ventana de tiempo (Solario - Los Ramirez 1)",
         "not":  "Solicitud de Celeste Lozano (Solario, 28-sep-2026) a CFE para ventana de tiempo para dar de alta 2 medidores ION de la Central Los Ramirez 1 en el servidor de Solario (172.16.6.69); duracion estimada ~45 min (hora_fin estimada). CFE (Alan Garcia) confirmo 'Hoy a las 11am' el 29-sep y envio invitacion de Teams. Durante la ventana Miguel Najera compartio evidencias de que no se llega a los medidores. [Consolidado de 2 correos]"
+    },
+    {
+        "f":  "2026-10-09",
+        "hi":  "09:00",
+        "hf":  "12:00",
+        "tz":  "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+        "sis":  "EDF",
+        "det":  "EDF (EDF Renewables / CFE)",
+        "est":  "confirmada",
+        "tit":  "Fwd: Ventana de mantenimiento EDF",
+        "not":  "Invitacion de CFE (alvaro.jacinto@cfe.mx, enviada 07-oct-2026): 'Cuando: viernes, 9 de octubre de 2026 09:00 a.m.-12:00 p.m. (UTC-06:00)', reunion de Microsoft Teams. Reenviada por Ricardo Hernandez (EDF) a jflores/imondragon y luego por Imanol Mondragon (FYI) el 08-oct-2026. Sin cancelacion ni rechazo en el hilo."
+    },
+    {
+        "f":  "2026-10-12",
+        "hi":  "09:00",
+        "hf":  "12:00",
+        "tz":  "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+        "sis":  "BII Hioxo",
+        "det":  "BII Hioxo (Naturgy / CFE Sureste)",
+        "est":  "confirmada",
+        "tit":  "RV: Ventana de mantenimiento BII-HIOXO",
+        "not":  "Invitacion original de CFE (alvaro.jacinto@cfe.mx, enviada 07-oct-2026): 'Cuando: Lun 12/10/2026 de 09:00 AM a 12:00 PM', reunion de Microsoft Teams, ventana de revision del servidor de Fuerza y Energia Bii Hioxo. Reenviada por Ricardo Morales (Global Power Generation / Naturgy) el 08-oct-2026: equipo Nxt View de 9:00 a 9:45, equipo Tesren de 9:45 en adelante. Mismo patron que las ventanas BII Hioxo del 24-ago y 24-sep-2026."
     }
 ]
