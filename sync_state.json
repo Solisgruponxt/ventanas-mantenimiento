@@ -1,4 +1,4 @@
 {
-  "last_event_fecha": "2026-10-12",
-  "last_sync_note": "Sync automatico 2026-10-08: +2 ventanas nuevas. EDF 09-oct-2026 09:00-12:00 (invitacion CFE reenviada por EDF/imondragon, thread 1a11c41708391ca4); BII Hioxo 12-oct-2026 09:00-12:00 (invitacion CFE reenviada por Global Power, thread 1a11c30da115ba77). Descartados: 'Aceptado: Tema de Servidor EGU (Fallas en Porteo)' (1a0fd5dcbaf409c1) es reunion de seguimiento, no ventana; 'ESTATUS DE COMUNICACION FINAL septiembre 2026' (1a0e972fb5ac34e2) y 'Fwd: ESTATUS DE COMUNICACION SSS FINAL' (1a0ee5d6972916ca) son estatus de porteo; 'PUNTO DE CARGA SIN COMUNICACION EDI' (1a118694569a9c56) es soporte, no ventana."
+  "last_event_fecha": "2026-10-14",
+  "last_sync_note": "Sync automatico 2026-10-14: +1 ventana nueva. Blue Energy (Otros) 14-oct-2026 10:00-11:00 (CFE confirmo sesion de configuracion de licencias; threads 1a1325722883ee0d, 1a13643e9ad32bee). Pendientes/descartados: 'ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO OCTUBRE 2026' (1a13608cb9581410) es solicitud para 22-oct sin confirmacion todavia, reevaluar; 'Nueva ventana de mantenimiento: Balam' (1a135f5f022dcddf) es aviso del formulario del dashboard, ignorado; 'Notas: Reunion Medicion' (1a1322ff97d87edb) no es ventana."
 }

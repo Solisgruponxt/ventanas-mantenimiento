@@ -2857,5 +2857,23 @@
     ],
     "notas": "Invitacion original de CFE (alvaro.jacinto@cfe.mx, enviada 07-oct-2026): 'Cuando: Lun 12/10/2026 de 09:00 AM a 12:00 PM', reunion de Microsoft Teams, ventana de revision del servidor de Fuerza y Energia Bii Hioxo. Reenviada por Ricardo Morales (Global Power Generation / Naturgy) el 08-oct-2026: equipo Nxt View de 9:00 a 9:45, equipo Tesren de 9:45 en adelante. Mismo patron que las ventanas BII Hioxo del 24-ago y 24-sep-2026.",
     "sistema_tag": "BII Hioxo"
+  },
+  {
+    "titulo": "Ventana de Configuración Licencias Blue Energy",
+    "fecha": "2026-10-14",
+    "hora_inicio": "10:00",
+    "hora_fin": "11:00",
+    "timezone": "UTC-06:00 (Guadalajara/CDMX/Monterrey)",
+    "sistema_o_proyecto": "Blue Energy (B2E) - servidor Blue Energy / CFE",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "afernandez@b2e.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a1325722883ee0d",
+      "1a13643e9ad32bee"
+    ],
+    "notas": "B2E (Marvin Chavez, 02-oct-2026) solicito a CFE reutilizar licencias del usuario inactivo PARKER para el nuevo usuario calificado ALBEA en el servidor de Blue Energy; CFE elimino los centros de carga de PARKER (08-oct) y B2E pidio ventana de mantenimiento para la configuracion. CFE (Ismael Castillo, 12-oct-2026) confirmo: 'Podran programar la sesion por Teams el miercoles 14 de octubre de 10:00 a 11:00 hrs'. Hilo reenviado por Miguel Rodriguez al equipo NXT; B2E (Alejandro Fernandez) envio la invitacion de Teams el 13-oct-2026. Sin cancelacion ni rechazo. [Consolidado de 2 correos]",
+    "sistema_tag": "Otros"
   }
 ]
