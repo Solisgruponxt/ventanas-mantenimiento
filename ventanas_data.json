@@ -1824,5 +1824,16 @@
         "est":  "confirmada",
         "tit":  "Ventana de Configuración Licencias Blue Energy",
         "not":  "B2E (Marvin Chavez, 02-oct-2026) solicito a CFE reutilizar licencias del usuario inactivo PARKER para el nuevo usuario calificado ALBEA en el servidor de Blue Energy; CFE elimino los centros de carga de PARKER (08-oct) y B2E pidio ventana de mantenimiento para la configuracion. CFE (Ismael Castillo, 12-oct-2026) confirmo: 'Podran programar la sesion por Teams el miercoles 14 de octubre de 10:00 a 11:00 hrs'. Hilo reenviado por Miguel Rodriguez al equipo NXT; B2E (Alejandro Fernandez) envio la invitacion de Teams el 13-oct-2026. Sin cancelacion ni rechazo. [Consolidado de 2 correos]"
+    },
+    {
+        "f":  "2026-10-19",
+        "hi":  null,
+        "hf":  null,
+        "tz":  "GMT-6",
+        "sis":  "EGU / Eólica del Golfo",
+        "det":  "EGU / Eólica del Golfo 1 (Vive Energía / CFE) - instalación y migración de nuevo servidor",
+        "est":  "confirmada",
+        "tit":  "Migracion del servidor EGU1 en site CFE (19 al 22 de octubre)",
+        "not":  "Hilo 'Problemáticas Servidor EGU'. Vive Energía (Diego Mendiola, 09-oct-2026) dio Vo.Bo. para la instalación del nuevo servidor la semana del 19 al 23 de octubre. Juan Carlos Solis compartió el 14-oct-2026 el programa de actividades (adjunto 'Programacion_Actividades_Migracion_EGU1_CFE.pdf') para la migración del servidor EGU1, del 19 al 22 de octubre en el site de CFE. Vive Energía agradeció las confirmaciones; CFE (Linshue Lopez, 15-oct-2026) respondió que durante esos días solo tendrá acceso al Centro de Datos el personal que realice la instalación y configuración (también habrá personal de Huawei en mantenimiento). Evento de varios días: fecha registrada como el primer día (19-oct), se extiende al 22-oct. Horario no especificado en el cuerpo del correo (ver PDF). Sin cancelación ni rechazo."
     }
 ]

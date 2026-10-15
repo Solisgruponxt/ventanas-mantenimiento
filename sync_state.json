@@ -1,4 +1,4 @@
 {
-  "last_event_fecha": "2026-10-14",
-  "last_sync_note": "Sync automatico 2026-10-14: +1 ventana nueva. Blue Energy (Otros) 14-oct-2026 10:00-11:00 (CFE confirmo sesion de configuracion de licencias; threads 1a1325722883ee0d, 1a13643e9ad32bee). Pendientes/descartados: 'ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO OCTUBRE 2026' (1a13608cb9581410) es solicitud para 22-oct sin confirmacion todavia, reevaluar; 'Nueva ventana de mantenimiento: Balam' (1a135f5f022dcddf) es aviso del formulario del dashboard, ignorado; 'Notas: Reunion Medicion' (1a1322ff97d87edb) no es ventana."
+  "last_event_fecha": "2026-10-19",
+  "last_sync_note": "Sync automatico 2026-10-15: +1 ventana nueva. EGU / Eólica del Golfo 19-oct-2026 (migracion del servidor EGU1 en site CFE, del 19 al 22 de octubre; thread 1a0fccb8b48532b6). Pendientes/descartados: 'ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO OCTUBRE 2026' (1a13608cb9581410) Balam ya solicito a CFE pero sin confirmacion todavia, reevaluar; 'DSP - Solicitud de Ventana de mantenimiento' (1a0b6204192c3018) sin fecha confirmada; 'Evento cancelado: Kino' (1a13b1f03cb9088b), 'Evento cancelado: Reunion Medicion' (1a131330d7b4f3d5), 'REVISION DE CFE' Superaki (1a11dd8115719cda) y 'ESTATUS DE COMUNICACION SSS' (19c4912d0792fc41) no son ventanas."
 }
