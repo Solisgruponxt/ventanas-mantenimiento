@@ -2892,5 +2892,23 @@
     ],
     "notas": "Hilo 'Problemáticas Servidor EGU'. Vive Energía (Diego Mendiola, 09-oct-2026) dio Vo.Bo. para la instalación del nuevo servidor la semana del 19 al 23 de octubre. Juan Carlos Solis compartió el 14-oct-2026 el programa de actividades (adjunto 'Programacion_Actividades_Migracion_EGU1_CFE.pdf') para la migración del servidor EGU1, del 19 al 22 de octubre en el site de CFE. Vive Energía agradeció las confirmaciones; CFE (Linshue Lopez, 15-oct-2026) respondió que durante esos días solo tendrá acceso al Centro de Datos el personal que realice la instalación y configuración (también habrá personal de Huawei en mantenimiento). Evento de varios días: fecha registrada como el primer día (19-oct), se extiende al 22-oct. Horario no especificado en el cuerpo del correo (ver PDF). Sin cancelación ni rechazo.",
     "sistema_tag": "EGU / Eólica del Golfo"
+  },
+  {
+    "titulo": "Ventana de mantenimiento EDI - Revision de medidores",
+    "fecha": "2026-10-26",
+    "hora_inicio": "09:00",
+    "hora_fin": "11:00",
+    "timezone": "GMT-6 (Hora estandar central - Ciudad de Mexico)",
+    "sistema_o_proyecto": "EDI (EDF Renewables / CFE Area de Medicion) - revision de medidores",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "fsilva@gruponxt.com",
+    "liga_reunion": "https://teams.microsoft.com/meet/2120576742468433?p=8kOt9GKn7q2FxECGVG",
+    "thread_ids": [
+      "1a1407cff8d87077",
+      "1a14032314b0c8ba"
+    ],
+    "notas": "Francisco Flores (jflores@gruponxt.com, 15-oct-2026) solicito al Area de Medicion de CFE e Infra apoyo para la 'ventana programada por el cliente el lunes 26 de Octubre en un horario de 9 a 11 am' en los puntos del proyecto EDI: validacion del estado operativo de los medidores, parametros y puerto de comunicacion, pruebas de comunicacion y lectura remota. Fernando Silva envio la invitacion de calendario 'ventana manteniemiento edi.' (lun 26 oct 2026 9am-11am GMT-6, Teams). Sin cancelacion ni rechazo en los hilos. [Consolidado de 2 correos]",
+    "sistema_tag": "EDF"
   }
 ]
