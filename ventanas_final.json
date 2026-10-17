@@ -2910,5 +2910,22 @@
     ],
     "notas": "Francisco Flores (jflores@gruponxt.com, 15-oct-2026) solicito al Area de Medicion de CFE e Infra apoyo para la 'ventana programada por el cliente el lunes 26 de Octubre en un horario de 9 a 11 am' en los puntos del proyecto EDI: validacion del estado operativo de los medidores, parametros y puerto de comunicacion, pruebas de comunicacion y lectura remota. Fernando Silva envio la invitacion de calendario 'ventana manteniemiento edi.' (lun 26 oct 2026 9am-11am GMT-6, Teams). Sin cancelacion ni rechazo en los hilos. [Consolidado de 2 correos]",
     "sistema_tag": "EDF"
+  },
+  {
+    "titulo": "Parque Solar Coahuila - Ventana CFE (validacion EI Server)",
+    "fecha": "2026-10-19",
+    "hora_inicio": "10:00",
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "Parque Solar Coahuila (Grupo Dragon / CFE) - validacion del EI Server",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "cristian.dominguez@gdragon.com.mx",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a145b52e1b55e03"
+    ],
+    "notas": "Grupo Dragon (Cristian Dominguez, 16-oct-2026) solicito a CFE (Juan Duque / Jose Manuel Arratia) una ventana para Parque Solar Coahuila para validar el EI Server, por falta de comunicacion de los centros de carga reportada por el Ing. Francisco Flores (CFE). Juan Carlos Solis reenvio la peticion pidiendo la ventana el lunes; CFE (Francisco Javier Flores, 16-oct-2026) confirmo: 'La ventana seria el lunes a las 10:00 am'. El permisionario agradecio y compartio la liga de la reunion. Hora de fin no especificada. Sin cancelacion ni rechazo.",
+    "sistema_tag": "Otros"
   }
 ]
