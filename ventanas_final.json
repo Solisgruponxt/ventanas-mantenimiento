@@ -2927,5 +2927,24 @@
     ],
     "notas": "Grupo Dragon (Cristian Dominguez, 16-oct-2026) solicito a CFE (Juan Duque / Jose Manuel Arratia) una ventana para Parque Solar Coahuila para validar el EI Server, por falta de comunicacion de los centros de carga reportada por el Ing. Francisco Flores (CFE). Juan Carlos Solis reenvio la peticion pidiendo la ventana el lunes; CFE (Francisco Javier Flores, 16-oct-2026) confirmo: 'La ventana seria el lunes a las 10:00 am'. El permisionario agradecio y compartio la liga de la reunion. Hora de fin no especificada. Sin cancelacion ni rechazo.",
     "sistema_tag": "Otros"
+  },
+  {
+    "titulo": "ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO OCTUBRE 2026",
+    "fecha": "2026-10-21",
+    "hora_inicio": null,
+    "hora_fin": null,
+    "timezone": "GMT-6",
+    "sistema_o_proyecto": "AT&T / Energias Limpias II (Balam Fund) - CFE PrimeRead (servidor SSS)",
+    "estado": "confirmada",
+    "tipo": "correo_reenviado",
+    "organizador_o_remitente": "jcruz@gruponxt.com",
+    "liga_reunion": null,
+    "thread_ids": [
+      "1a13608cb9581410",
+      "1a15a323c2b584ee",
+      "1a15f449a5154c3e"
+    ],
+    "notas": "Solicitud de Joselyn Cruz (13-oct-2026) proponiendo el 22-oct para la ventana mensual de validacion de sitios comunicados y descarga de perfiles en PrimeRead. Sofia Ibarrola (Balam) la gestiono con CFE ('Ventana de trabajo - SSS - Octubre 2026'); el 21-oct indico que segun el Ing. Campillo (CFE) la ventana 'podria ser hoy o el lunes'. CFE autorizo las altas (5 sitios) y bajas en Prime ('Adelante con las bajas y altas', reenviado 21-oct). El 21-oct a las ~10:21 Sofia envio las claves de acceso ('Ventana octubre SSS', con copia a Axity para soporte de puertos), por lo que la ventana se registra el 21-oct-2026. Hora exacta no especificada. Hilo relacionado: listado de sitios propuestos a modelado para revision en la ventana. [Consolidado de 3 correos]",
+    "sistema_tag": "SSS / Salsipuedes"
   }
 ]
