@@ -1867,6 +1867,17 @@
         "det":  "AT&T / Energias Limpias II (Balam Fund) - CFE PrimeRead (servidor SSS)",
         "est":  "confirmada",
         "tit":  "ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO OCTUBRE 2026",
-        "not":  "Solicitud de Joselyn Cruz (13-oct-2026) proponiendo el 22-oct para la ventana mensual de validacion de sitios comunicados y descarga de perfiles en PrimeRead. Sofia Ibarrola (Balam) la gestiono con CFE ('Ventana de trabajo - SSS - Octubre 2026'); el 21-oct indico que segun el Ing. Campillo (CFE) la ventana 'podria ser hoy o el lunes'. CFE autorizo las altas (5 sitios) y bajas en Prime ('Adelante con las bajas y altas', reenviado 21-oct). El 21-oct a las ~10:21 Sofia envio las claves de acceso ('Ventana octubre SSS', con copia a Axity para soporte de puertos), por lo que la ventana se registra el 21-oct-2026. Hora exacta no especificada. Hilo relacionado: listado de sitios propuestos a modelado para revision en la ventana. [Consolidado de 3 correos]"
+        "not":  "Solicitud de Joselyn Cruz (13-oct-2026) proponiendo el 22-oct para la ventana mensual de validacion de sitios comunicados y descarga de perfiles en PrimeRead. Sofia Ibarrola (Balam) la gestiono con CFE ('Ventana de trabajo - SSS - Octubre 2026'); el 21-oct indico que segun el Ing. Campillo (CFE) la ventana 'podria ser hoy o el lunes'. CFE autorizo las altas (5 sitios) y bajas en Prime ('Adelante con las bajas y altas', reenviado 21-oct). El 21-oct a las ~10:21 Sofia envio las claves de acceso ('Ventana octubre SSS', con copia a Axity para soporte de puertos), por lo que la ventana se registra el 21-oct-2026. Hora exacta no especificada. Hilo relacionado: listado de sitios propuestos a modelado para revision en la ventana. Reporte posterior (Joselyn Cruz, 23-oct-2026, 'ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO AT&T OCTUBRE') confirma la ventana con CFE realizada el 21-oct: baja de 30 sitios y alta de 13 sitios en Prime; pendientes para habilitar descarga de perfiles. Miguel Najera estuvo a cargo de la actividad. [Consolidado de 4 correos]"
+    },
+    {
+        "f":  "2026-10-26",
+        "hi":  "09:30",
+        "hf":  "15:00",
+        "tz":  "GMT-6 (Hora estandar central - Ciudad de Mexico)",
+        "sis":  "EDP",
+        "det":  "BSD / EDP (CFE)",
+        "est":  "confirmada",
+        "tit":  "ventana matto bsd edp",
+        "not":  "Invitacion de calendario (Teams) de Carlos Joel Cisneros Cruz (CFE) a Huberto Tobias (edf-re.com) y Juan Carlos Solis, enviada el 26-oct-2026 ~09:32. Fecha/hora tomadas del .ics adjunto: lun 26 oct 2026 09:30-15:00 Central Standard Time (Mexico), STATUS:CONFIRMED. Sin cancelacion ni rechazo. Cuerpo sin detalle de actividades."
     }
 ]

@@ -2942,9 +2942,27 @@
     "thread_ids": [
       "1a13608cb9581410",
       "1a15a323c2b584ee",
-      "1a15f449a5154c3e"
+      "1a15f449a5154c3e",
+      "1a169a8e5f0f163b"
     ],
-    "notas": "Solicitud de Joselyn Cruz (13-oct-2026) proponiendo el 22-oct para la ventana mensual de validacion de sitios comunicados y descarga de perfiles en PrimeRead. Sofia Ibarrola (Balam) la gestiono con CFE ('Ventana de trabajo - SSS - Octubre 2026'); el 21-oct indico que segun el Ing. Campillo (CFE) la ventana 'podria ser hoy o el lunes'. CFE autorizo las altas (5 sitios) y bajas en Prime ('Adelante con las bajas y altas', reenviado 21-oct). El 21-oct a las ~10:21 Sofia envio las claves de acceso ('Ventana octubre SSS', con copia a Axity para soporte de puertos), por lo que la ventana se registra el 21-oct-2026. Hora exacta no especificada. Hilo relacionado: listado de sitios propuestos a modelado para revision en la ventana. [Consolidado de 3 correos]",
+    "notas": "Solicitud de Joselyn Cruz (13-oct-2026) proponiendo el 22-oct para la ventana mensual de validacion de sitios comunicados y descarga de perfiles en PrimeRead. Sofia Ibarrola (Balam) la gestiono con CFE ('Ventana de trabajo - SSS - Octubre 2026'); el 21-oct indico que segun el Ing. Campillo (CFE) la ventana 'podria ser hoy o el lunes'. CFE autorizo las altas (5 sitios) y bajas en Prime ('Adelante con las bajas y altas', reenviado 21-oct). El 21-oct a las ~10:21 Sofia envio las claves de acceso ('Ventana octubre SSS', con copia a Axity para soporte de puertos), por lo que la ventana se registra el 21-oct-2026. Hora exacta no especificada. Hilo relacionado: listado de sitios propuestos a modelado para revision en la ventana. Reporte posterior (Joselyn Cruz, 23-oct-2026, 'ENERGIAS LIMPIAS II VENTANA DE MANTENIMIENTO AT&T OCTUBRE') confirma la ventana con CFE realizada el 21-oct: baja de 30 sitios y alta de 13 sitios en Prime; pendientes para habilitar descarga de perfiles. Miguel Najera estuvo a cargo de la actividad. [Consolidado de 4 correos]",
     "sistema_tag": "SSS / Salsipuedes"
+  },
+  {
+    "titulo": "ventana matto bsd edp",
+    "fecha": "2026-10-26",
+    "hora_inicio": "09:30",
+    "hora_fin": "15:00",
+    "timezone": "GMT-6 (Hora estandar central - Ciudad de Mexico)",
+    "sistema_o_proyecto": "BSD / EDP (CFE)",
+    "estado": "confirmada",
+    "tipo": "invitacion_calendario",
+    "organizador_o_remitente": "carlos.cisneros@cfe.mx",
+    "liga_reunion": "https://teams.microsoft.com/meet/2298162457670708?p=yJCcxwTIjf57xRCv11",
+    "thread_ids": [
+      "1a178d78fe7bb95d"
+    ],
+    "notas": "Invitacion de calendario (Teams) de Carlos Joel Cisneros Cruz (CFE) a Huberto Tobias (edf-re.com) y Juan Carlos Solis, enviada el 26-oct-2026 ~09:32. Fecha/hora tomadas del .ics adjunto: lun 26 oct 2026 09:30-15:00 Central Standard Time (Mexico), STATUS:CONFIRMED. Sin cancelacion ni rechazo. Cuerpo sin detalle de actividades.",
+    "sistema_tag": "EDP"
   }
 ]
